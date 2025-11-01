@@ -33,6 +33,8 @@ jobs:
         
       - name: Build Next.js app
         run: cd main && npm run export
+        env:
+          NEXT_PUBLIC_GH_PAGES: 'true'
         
       - name: Copy .nojekyll file
         run: cp main/.nojekyll main/out/
