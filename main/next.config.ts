@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  ...(isGitHubPages ? { basePath: '/strat', assetPrefix: '/strat/' } : {}),
+  ...(isGitHubPages ? { basePath: '/polly-strat', assetPrefix: '/polly-strat/' } : {}),
 };
 
 export default nextConfig;

@@ -20,31 +20,37 @@
 
 Для тестирования сборки локально:
 
+### Обычная сборка (без basePath):
 ```bash
 cd main
 pnpm install
 pnpm run export
 ```
 
+### Сборка для GitHub Pages (с basePath):
+```bash
+cd main
+pnpm install
+NEXT_PUBLIC_GH_PAGES=true pnpm run export
+```
+
 Собранные файлы будут в папке `main/out/`
 
 ## Настройка для подпапки репозитория
 
-Если ваш репозиторий не находится в корне GitHub Pages (например, `username.github.io/repo-name`), раскомментируйте и настройте следующие строки в `next.config.ts`:
+Репозиторий настроен для работы в подпапке `/polly-strat/` на GitHub Pages.
 
-```typescript
-basePath: '/your-repo-name',
-assetPrefix: '/your-repo-name/',
-```
-
-Замените `your-repo-name` на название вашего репозитория.
+Конфигурация в `next.config.ts` использует переменную окружения `NEXT_PUBLIC_GH_PAGES`:
+- Если `NEXT_PUBLIC_GH_PAGES=true`, то используется `basePath: '/polly-strat'` и `assetPrefix: '/polly-strat/'`
+- Если переменная не установлена, приложение работает без basePath (для локальной разработки)
 
 ## Автоматический деплой
 
 После настройки GitHub Pages, каждый push в ветку `main` будет автоматически:
-1. Собирать Next.js приложение
+1. Собирать Next.js приложение с `NEXT_PUBLIC_GH_PAGES=true`
 2. Деплоить его на GitHub Pages
 
+**Важно**: При сборке для GitHub Pages обязательно должна быть установлена переменная окружения `NEXT_PUBLIC_GH_PAGES=true`, чтобы правильно настроились пути к ресурсам.
+
 URL вашего сайта будет доступен по адресу:
-- `https://username.github.io/repository-name` (если репозиторий не в корне)
-- `https://username.github.io` (если репозиторий в корне)
+- `https://ruddch.github.io/polly-strat/` (текущая настройка)
