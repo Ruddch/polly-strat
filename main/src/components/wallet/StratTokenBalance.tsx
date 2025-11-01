@@ -33,7 +33,7 @@ export function StratTokenBalance() {
   const formattedBalance = parseFloat(tokenBalance).toFixed(2);
 
   return (
-    <div className="text-[12px] font-light text-white font-[family-name:var(--font-martian-mono)] mb-1">
+    <div className="text-[12px] font-light text-black/40 font-[family-name:var(--font-martian-mono)] mb-1">
       {formattedBalance} PST
     </div>
   );

@@ -69,7 +69,7 @@ export function ProgressBar({ percentage, className = '', containerRef }: Progre
               className={`transition-colors duration-200 ${
                 isActive 
                   ? 'w-0.5 h-[61px] bg-[var(--color-text-accent)]' 
-                  : 'w-0.5 h-[61px] bg-[var(--color-border-accent)]' 
+                  : 'w-0.5 h-[61px] bg-[var(--color-white)]' 
               }`}
             />
           );

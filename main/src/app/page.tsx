@@ -103,8 +103,8 @@ export default function Home() {
       <div className="ml-0 mr-0 lg:ml-64 lg:mr-64 font-[family-name:var(--font-avenue-mono)] h-screen no-scrollbar overflow-y-scroll snap-y snap-mandatory">
       {/* First Section - Original Dashboard */}
       <div id="live" ref={containerRef} className="relative grid grid-rows-[1fr_auto] min-h-screen snap-start">
-        <ResponsiveBackgroundEffects message="PENGU STRATEGY" mobileFontSize={30} desktopFontSize={200} />
-        <main className="relative flex flex-col justify-between w-full h-full z-10 text-white">
+        <ResponsiveBackgroundEffects message="POLLY STRATEGY" mobileFontSize={30} desktopFontSize={200} />
+        <main className="relative flex flex-col justify-between w-full h-full z-10 text-black">
           {/* Top Section - Metrics */}
           <MetricsSection />
 
@@ -124,14 +124,14 @@ export default function Home() {
             {/* Labels - 4 equal cells */}
             <div className="flex w-full">
               <div className="flex-1 text-left p-2 pb-13">
-                <span className="text-sm text-gray-300 font-[family-name:var(--font-martian-mono)]">
+                <span className="text-sm text-gray-700 font-[family-name:var(--font-martian-mono)]">
                   0 ETH
                 </span>
               </div>
               <div className="flex-1 border-l p-2 pb-13 border-[var(--color-border-accent)]"></div>
               <div className="flex-1 border-l p-2 pb-13 border-[var(--color-border-accent)]"></div>
               <div className="flex-1 text-right p-2 pb-13 border-l border-[var(--color-border-accent)]">
-                <span className="text-sm text-right text-gray-300 font-[family-name:var(--font-martian-mono)]">
+                <span className="text-sm text-right text-gray-700 font-[family-name:var(--font-martian-mono)]">
                   1 ETH
                 </span>
               </div>
@@ -141,25 +141,25 @@ export default function Home() {
       </div>
 
       {/* Fourth Section - How it works */}
-      <div id="how-it-works" ref={howItWorksRef} className="relative min-h-screen z-10 text-white snap-start">
+      <div id="how-it-works" ref={howItWorksRef} className="relative min-h-screen z-10 text-black snap-start">
         <HowItWorksSection />
       </div>
 
       {/* Third Section - Trading */}
-      <div id="trading" ref={tradingRef} className="relative min-h-screen z-10 text-white snap-start">
+      <div id="trading" ref={tradingRef} className="relative min-h-screen z-10 text-black snap-start">
         <TradingSection />
       </div>
 
       {/* Fourth Section - Take Profit */}
-      <div id="take-profit" ref={takeProfitRef} className="relative min-h-screen z-10 text-white snap-start">
+      <div id="take-profit" ref={takeProfitRef} className="relative min-h-screen z-10 text-black snap-start">
         <TakeProfitTable />
       </div>
-      <div id="last-buys" ref={lastBuysRef} className="relative min-h-screen z-10 text-white snap-start">
+      <div id="last-buys" ref={lastBuysRef} className="relative min-h-screen z-10 text-black snap-start">
         <LastBuysTable />
       </div>
 
       {/* Fifth Section - Treasury */}
-      <div id="treasury" ref={treasuryRef} className="relative min-h-screen z-10 text-white snap-start">
+      <div id="treasury" ref={treasuryRef} className="relative min-h-screen z-10 text-black snap-start">
         <TreasurySection />
       </div>
       </div>

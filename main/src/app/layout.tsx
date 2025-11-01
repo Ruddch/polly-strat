@@ -31,8 +31,8 @@ const martianMono = Martian_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pengu Strategy",
-  description: "The Perpetual Pengu Machine",
+  title: "Polly Strategy",
+  description: "The Perpetual Polly Machine",
   icons: {
     icon: [
       // URL is set at runtime below in <head> for dynamic basePath

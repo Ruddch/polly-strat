@@ -18,7 +18,7 @@ export function ResponsiveBackgroundEffects({
   message = 'PENGU STRATEGY',
   mobileFontSize = 50,
   desktopFontSize = 200,
-  fontColor = [13, 48, 55, 130],
+  fontColor = [253, 206, 219, 200],
   density = 1,
   mobileDensity = 2,
   repelThreshold = 100,

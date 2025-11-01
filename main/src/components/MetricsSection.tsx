@@ -42,7 +42,7 @@ const MetricsSection: React.FC = () => {
   return (
     <div className="flex justify-between w-full border-b border-[var(--color-border-accent)]">
       <div className="flex-1 text-center pb-7 pt-13 border-r border-[var(--color-border-accent)]">
-        <p className="text-sm text-gray-300 mb-2 font-[family-name:var(--font-martian-mono)]">
+        <p className="text-sm text-gray-700 mb-2 font-[family-name:var(--font-martian-mono)]">
           Total ETH commissions
         </p>
         <p className="text-[60px] lg:text-[124px] font-normal leading-[100%] tracking-[0%] text-center text-[var(--color-text-accent)] font-[family-name:var(--font-random-grotesque)]">
@@ -53,8 +53,8 @@ const MetricsSection: React.FC = () => {
         </p>
       </div>
       <div className="flex-1 text-center pb-7 pt-13">
-        <p className="text-sm text-gray-300 mb-2 font-[family-name:var(--font-martian-mono)]">
-          Total PENGU bought
+        <p className="text-sm text-gray-700 mb-2 font-[family-name:var(--font-martian-mono)]">
+          Total POLLY bought
         </p>
         <p className="text-[60px] lg:text-[124px] font-normal leading-[100%] tracking-[0%] text-center text-[var(--color-text-accent)] font-[family-name:var(--font-random-grotesque)]">
           <AnimatedValue

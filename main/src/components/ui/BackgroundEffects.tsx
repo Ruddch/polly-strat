@@ -82,7 +82,7 @@ interface BackgroundEffectsProps {
 export function BackgroundEffects({ 
     message = 'PENGU STRATEGY',
     fontSize = 200,
-    fontColor = [13, 48, 55, 130],
+    fontColor = [253, 206, 219, 200],
     density = 1,
     repelThreshold = 100
 }: BackgroundEffectsProps) {
@@ -416,7 +416,7 @@ export function BackgroundEffects({
                     height: '100%',
                     pointerEvents: 'none',
                     touchAction: 'none', 
-                    backgroundColor: 'rgba(1, 27, 35, 1)'
+                    backgroundColor: '#FFE7F3'
                 }}
             />
             <div

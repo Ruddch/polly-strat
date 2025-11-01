@@ -19,22 +19,22 @@ const LastBuysTable: React.FC = () => {
       {/* Last Buys Table */}
       <div className="flex w-full border-b border-[var(--color-border-accent)]">
         <div className="flex-1 text-left p-2">
-          <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]">
-            PENGU amount
+          <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]">
+            POLLY amount
           </span>
         </div>
         <div className="flex-1 p-2">
-          <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]">
+          <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]">
             Price
           </span>
         </div>
         <div className="flex-1 p-2">
-          <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]">
+          <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]">
             Multiplier
           </span>
         </div>
         <div className="flex-1 p-2">
-          <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]">
+          <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]">
             Predicted Gain
           </span>
         </div>
@@ -48,7 +48,7 @@ const LastBuysTable: React.FC = () => {
       ) : lastBuys.length === 0 ? (
         <div className="flex pt-8 pb-8 w-full">
           <div className="flex-1 py-8 text-center p-8">
-            <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-white font-[family-name:var(--font-random-grotesque)]">
+            <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-black font-[family-name:var(--font-random-grotesque)]">
               No active lots
             </span>
           </div>
@@ -63,24 +63,24 @@ const LastBuysTable: React.FC = () => {
           const predictedGain = isEthPriceLoading ? 0 : ethSpentNumber * multiplier * ethPrice;
           
           return (
-            <div key={lot.id} className={`flex w-full ${index % 2 === 1 ? 'bg-[rgba(96,255,255,0.05)]' : ''}`}>
+            <div key={lot.id} className={`flex w-full ${index % 2 === 1 ? 'bg-[rgba(253,206,219,0.05)]' : ''}`}>
               <div className="flex-1 text-left p-2 pb-8 pt-8 border-b border-[var(--color-border-accent)]">
-                <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-white font-[family-name:var(--font-random-grotesque)]">
+                <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-black font-[family-name:var(--font-random-grotesque)]">
                   {formatTokenBalance(lot.amountPengu, 18, 0)}
                 </span>
               </div>
               <div className="flex-1 border-l p-2 pb-8 pt-8 border-b border-[var(--color-border-accent)]">
-                <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-white font-[family-name:var(--font-random-grotesque)]">
+                <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-black font-[family-name:var(--font-random-grotesque)]">
                   {formatTokenPrice(lot.avgPriceWeiPerPengu)}
                 </span>
               </div>
               <div className="flex-1 border-l p-2 pb-8 pt-8 border-b border-[var(--color-border-accent)]">
-                <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-white font-[family-name:var(--font-random-grotesque)]">
+                <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-black font-[family-name:var(--font-random-grotesque)]">
                   {multiplier.toFixed(1)}x
                 </span>
               </div>
               <div className="flex-1 p-2 pb-8 pt-8 border-l border-b border-[var(--color-border-accent)]">
-                <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-[#00FF00] font-[family-name:var(--font-random-grotesque)]">
+                <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-[#E91E63] font-[family-name:var(--font-random-grotesque)]">
                   ${predictedGain.toFixed(2)}
                 </span>
               </div>
@@ -94,7 +94,7 @@ const LastBuysTable: React.FC = () => {
         <div className="flex w-full justify-center p-4">
           <button
             onClick={() => setShowAll(!showAll)}
-            className="px-6 py-2 bg-transparent border border-[var(--color-border-accent)] text-white hover:bg-[rgba(96,255,255,0.1)] transition-colors duration-200 font-[family-name:var(--font-martian-mono)] text-[14px] cursor-pointer"
+            className="px-6 py-2 bg-transparent border border-[var(--color-border-accent)] text-black hover:bg-[rgba(253,206,219,0.1)] transition-colors duration-200 font-[family-name:var(--font-martian-mono)] text-[14px] cursor-pointer"
           >
             {showAll ? 'Show Less' : `Show More (${lastBuys.length - 4} more)`}
           </button>

@@ -56,7 +56,7 @@ export function OrientationLock({ children }: OrientationLockProps) {
           left: 0,
           width: '100vw',
           height: '100vh',
-          backgroundColor: 'rgba(1, 27, 35, 1)',
+          backgroundColor: '#000000',
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',

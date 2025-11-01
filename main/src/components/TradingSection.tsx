@@ -46,7 +46,7 @@ export default function TradingSection() {
         <div className="w-full p-4 pt-8 pb-8 border-r border-b border-[var(--color-border-accent)] ">
           <div className="">
             
-            <h3 className=" mb-4 text-lg font-light text-white font-[family-name:var(--font-martian-mono)]">
+            <h3 className=" mb-4 text-lg font-light text-gray-700 font-[family-name:var(--font-martian-mono)]">
               Buy $PST
             </h3>
             <WalletBalance />
@@ -56,7 +56,7 @@ export default function TradingSection() {
 
         <div className="w-full p-4 pt-8 pb-8 border-b border-[var(--color-border-accent)]">
           <div className="">
-            <h3 className="mb-4 text-lg font-light text-white font-[family-name:var(--font-martian-mono)]">
+            <h3 className="mb-4 text-lg font-light text-gray-700 font-[family-name:var(--font-martian-mono)]">
               Sell $PST
             </h3>
             <StratTokenBalance />
@@ -67,11 +67,11 @@ export default function TradingSection() {
 
       <div className="p-4 border-b border-[var(--color-border-accent)]">
         <div className="flex flex-col items-center space-y-2">
-          <h4 className="text-[20px] font-light text-white font-[family-name:var(--font-martian-mono)]">
+          <h4 className="text-[20px] font-light text-black font-[family-name:var(--font-martian-mono)]">
             Contract Address
           </h4>
           <div onClick={copyContractAddress} className="flex items-center space-x-2 cursor-pointer hover:opacity-80 transition-opacity">
-            <code className="text-[16px] font-mono text-[var(--color-text-accent)] bg-black/20 px-2 py-1 rounded border border-[var(--color-border-accent)]">
+            <code style={{ backgroundColor: 'rgba(253, 206, 219, 1)' }} className="text-[16px] font-mono text-[var(--color-text-accent)] px-2 py-1 rounded border border-[var(--color-border-accent)]">
               {CONTRACT_ADDRESSES.STRAT_TOKEN}
             </code>
             {copied && (

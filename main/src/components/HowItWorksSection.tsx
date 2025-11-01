@@ -34,29 +34,29 @@ const HowItWorksSection: React.FC = () => {
         {/* First Row */}
         <div className="flex flex-col lg:flex-row w-full border-b border-[var(--color-border-accent)]">
           {/* Step 1 */}
-          <div className="flex-1 p-8 border-b lg:border-b-0 lg:border-r border-[var(--color-border-accent)]" style={{backgroundColor: 'rgba(96,255,255,0.05)'}}>
+          <div className="flex-1 p-8 border-b lg:border-b-0 lg:border-r border-[var(--color-border-accent)]" style={{backgroundColor: 'rgba(253,206,219,0.05)'}}>
             <div className="text-left max-w-[570px]">
-              <h3 className="text-[20px] font-light text-white mb-4 font-[family-name:var(--font-martian-mono)]">
+              <h3 className="text-[20px] font-light text-black mb-4 font-[family-name:var(--font-martian-mono)]">
                 <span className="text-[var(--color-text-accent)]">1.</span> Fee mechanics
               </h3>
-              <p className="text-[14px] font-light leading-[180%] text-gray-300 font-[family-name:var(--font-martian-mono)]">
+              <p className="text-[14px] font-light leading-[180%] text-gray-700 font-[family-name:var(--font-martian-mono)]">
                 Every trade of $PST comes with a <span className="text-[16px] text-[var(--color-text-accent)] font-normal">10%</span> fee.<br/>
-                From that — <span className="text-[16px] text-[var(--color-text-accent)] font-normal">8%</span> goes toward automatic $PENGU buybacks, 
-                <span className="text-[16px] text-[var(--color-text-accent)] font-normal">1.5%</span> supports operations, 
-                and <span className="text-[16px] text-[var(--color-text-accent)] font-normal">0.5%</span> goes to $INVEST ecosystem.
+                From that — <span className="text-[16px] text-[var(--color-text-accent)] font-normal">8%</span> goes toward automatic $POLLY buybacks, 
+                <span className="text-[16px] text-[var(--color-text-accent)] font-normal">1%</span> POLLY team, 
+                and <span className="text-[16px] text-[var(--color-text-accent)] font-normal">1%</span> goes to $PST buybacks.
               </p>
             </div>
           </div>
 
           {/* Step 2 */}
-          <div className="flex-1 p-8" style={{backgroundColor: 'rgba(96,255,255,0.05)'}}>
+          <div className="flex-1 p-8" style={{backgroundColor: 'rgba(253,206,219,0.05)'}}>
             <div className="text-left max-w-[570px]">
-              <h3 className="text-[20px] font-light text-white mb-4 font-[family-name:var(--font-martian-mono)]">
+              <h3 className="text-[20px] font-light text-black mb-4 font-[family-name:var(--font-martian-mono)]">
                 <span className="text-[var(--color-text-accent)]">2.</span> Automatic buyback
               </h3>
-              <p className="text-[14px] font-light leading-[180%] text-gray-300 font-[family-name:var(--font-martian-mono)]">
+              <p className="text-[14px] font-light leading-[180%] text-gray-700 font-[family-name:var(--font-martian-mono)]">
                 Once the Collector balance reaches threshold, 
-                it automatically triggers a $PENGU buy on the market — 
+                it automatically triggers a $POLLY buy on the market — 
                 keeping the buyback loop running continuously.
               </p>
             </div>
@@ -66,13 +66,13 @@ const HowItWorksSection: React.FC = () => {
         {/* Second Row */}
         <div className="flex flex-col lg:flex-row w-full">
           {/* Step 3 */}
-          <div className="flex-1 p-8 border-b lg:border-b-0 lg:border-r border-[var(--color-border-accent)]" style={{backgroundColor: 'rgba(96,255,255,0.05)'}}>
+          <div className="flex-1 p-8 border-b lg:border-b-0 lg:border-r border-[var(--color-border-accent)]" style={{backgroundColor: 'rgba(253,206,219,0.05)'}}>
             <div className="text-left max-w-[570px]">
-              <h3 className="text-[20px] font-light text-white mb-4 font-[family-name:var(--font-martian-mono)]">
+              <h3 className="text-[20px] font-light text-black mb-4 font-[family-name:var(--font-martian-mono)]">
                 <span className="text-[var(--color-text-accent)]">3.</span> Rewards & recycling
               </h3>
-              <p className="text-[14px] font-light leading-[180%] text-gray-300 font-[family-name:var(--font-martian-mono)]">
-                The purchased $PENGU is split:<br/>
+              <p className="text-[14px] font-light leading-[180%] text-gray-700 font-[family-name:var(--font-martian-mono)]">
+                The purchased $POLLY is split:<br/>
                 <span className="text-[16px] text-[var(--color-text-accent)] font-normal">70%</span> is reserved for the next sell cycles, 
                 and <span className="text-[16px] text-[var(--color-text-accent)] font-normal">30%</span> is used for <button 
                   onClick={scrollToTreasury}
@@ -85,13 +85,13 @@ const HowItWorksSection: React.FC = () => {
           </div>
 
           {/* Step 4 */}
-          <div className="flex-1 p-8" style={{backgroundColor: 'rgba(96,255,255,0.05)'}}>
+          <div className="flex-1 p-8" style={{backgroundColor: 'rgba(253,206,219,0.05)'}}>
             <div className="text-left max-w-[570px]">
-              <h3 className="text-[20px] font-light text-white mb-4 font-[family-name:var(--font-martian-mono)]">
+              <h3 className="text-[20px] font-light text-black mb-4 font-[family-name:var(--font-martian-mono)]">
                 <span className="text-[var(--color-text-accent)]">4.</span> Smart sellback
               </h3>
-              <p className="text-[14px] font-light leading-[180%] text-gray-300 font-[family-name:var(--font-martian-mono)]">
-                When $PENGU reaches its <button 
+              <p className="text-[14px] font-light leading-[180%] text-gray-700 font-[family-name:var(--font-martian-mono)]">
+                When $POLLY reaches its <button 
                   onClick={scrollToUpcomingSales}
                   className="text-[var(--color-text-accent)] hover:opacity-80 transition-opacity cursor-pointer underline decoration-[var(--color-text-accent)] underline-offset-2"
                 >

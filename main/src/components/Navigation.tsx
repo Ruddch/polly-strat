@@ -27,7 +27,7 @@ export function Navigation() {
         <div className="mb-8">
           <Link href="/" className="block hover:opacity-80 transition-opacity cursor-pointer">
             <h1 className="text-[20px] w-41 font-light leading-[150%] tracking-[0%] text-[var(--color-text-accent)] font-[family-name:var(--font-martian-mono)]">
-              PENGU<br/>STRATEGY
+              POLLY<br/>STRATEGY
             </h1>
           </Link>
           
@@ -40,7 +40,7 @@ export function Navigation() {
                 className={`block text-[14px] font-light leading-[150%] tracking-[0%] font-[family-name:var(--font-martian-mono)] hover:opacity-80 transition-opacity cursor-pointer ${
                   activeSection === 'live' 
                     ? 'text-[var(--color-text-accent)]' 
-                    : 'text-white'
+                    : 'text-black'
                 }`}
               >
                 Live
@@ -50,7 +50,7 @@ export function Navigation() {
                 className={`block text-[14px] font-light leading-[150%] tracking-[0%] font-[family-name:var(--font-martian-mono)] hover:opacity-80 transition-opacity cursor-pointer ${
                   activeSection === 'how-it-works' 
                     ? 'text-[var(--color-text-accent)]' 
-                    : 'text-white'
+                    : 'text-black'
                 }`}
               >
                 How it works
@@ -60,7 +60,7 @@ export function Navigation() {
                 className={`block text-[14px] font-light leading-[150%] tracking-[0%] font-[family-name:var(--font-martian-mono)] hover:opacity-80 transition-opacity cursor-pointer ${
                   activeSection === 'trading' 
                     ? 'text-[var(--color-text-accent)]' 
-                    : 'text-white'
+                    : 'text-black'
                 }`}
               >
                 Trading
@@ -70,7 +70,7 @@ export function Navigation() {
                 className={`block text-[14px] font-light leading-[150%] tracking-[0%] font-[family-name:var(--font-martian-mono)] hover:opacity-80 transition-opacity cursor-pointer ${
                   activeSection === 'take-profit' 
                     ? 'text-[var(--color-text-accent)]' 
-                    : 'text-white'
+                    : 'text-black'
                 }`}
               >
                 Upcoming Sales
@@ -80,7 +80,7 @@ export function Navigation() {
                 className={`block text-[14px] font-light leading-[150%] tracking-[0%] font-[family-name:var(--font-martian-mono)] hover:opacity-80 transition-opacity cursor-pointer ${
                   activeSection === 'last-buys' 
                     ? 'text-[var(--color-text-accent)]' 
-                    : 'text-white'
+                    : 'text-black'
                 }`}
               >
                 Last Buys
@@ -90,7 +90,7 @@ export function Navigation() {
                 className={`block text-[14px] font-light leading-[150%] tracking-[0%] font-[family-name:var(--font-martian-mono)] hover:opacity-80 transition-opacity cursor-pointer ${
                   activeSection === 'treasury' 
                     ? 'text-[var(--color-text-accent)]' 
-                    : 'text-white'
+                    : 'text-black'
                 }`}
               >
                 Holders Dividends
@@ -111,7 +111,7 @@ export function Navigation() {
               className={`block text-[14px] font-light leading-[150%] tracking-[0%] font-[family-name:var(--font-martian-mono)] hover:opacity-80 transition-opacity cursor-pointer ${
                 pathname === "/"
                   ? "text-[var(--color-text-accent)]"
-                  : "text-white"
+                  : "text-black"
               }`}
             >
               Home
@@ -121,7 +121,7 @@ export function Navigation() {
               className={`block text-[14px] font-light leading-[150%] tracking-[0%] font-[family-name:var(--font-martian-mono)] hover:opacity-80 transition-opacity cursor-pointer ${
                 pathname === "/claim/"
                   ? "text-[var(--color-text-accent)]"
-                  : "text-white"
+                  : "text-black"
               }`}
             >
               Claim
@@ -130,7 +130,7 @@ export function Navigation() {
               href="https://pengu-strategy.gitbook.io/pengu-strategy/"
               target="_blank"
               rel="noopener noreferrer"
-              className="block text-[14px] font-light leading-[150%] tracking-[0%] font-[family-name:var(--font-martian-mono)] hover:opacity-80 transition-opacity cursor-pointer text-white"
+              className="block text-[14px] font-light leading-[150%] tracking-[0%] font-[family-name:var(--font-martian-mono)] hover:opacity-80 transition-opacity cursor-pointer text-black"
             >
               Docs
             </a>

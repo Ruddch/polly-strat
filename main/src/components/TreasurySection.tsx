@@ -112,7 +112,7 @@ const TreasurySection: React.FC = () => {
           href="https://abscan.org/address/0x2fafa047a6174705460732f42854dac966686263"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[14px] font-light leading-[150%] tracking-[0%] text-white hover:text-[var(--color-text-accent)] transition-colors font-[family-name:var(--font-martian-mono)] underline underline-offset-2"
+          className="text-[14px] font-light leading-[150%] tracking-[0%] text-black hover:text-[var(--color-text-accent)] transition-colors font-[family-name:var(--font-martian-mono)] underline underline-offset-2"
         >
           View Contract
         </a>
@@ -122,7 +122,7 @@ const TreasurySection: React.FC = () => {
       <div className="flex w-full border-b border-[var(--color-border-accent)]">
         {/* Left Panel - Current holding */}
         <div className="flex-1 text-center pb-8 pt-8 border-r border-[var(--color-border-accent)]">
-          <p className="text-[14px] font-light leading-[150%] tracking-[0%] text-white mb-2 font-[family-name:var(--font-martian-mono)]">
+          <p className="text-[14px] font-light leading-[150%] tracking-[0%] text-black mb-2 font-[family-name:var(--font-martian-mono)]">
             Current epoch dividends
           </p>
           <p className="text-[60px] lg:text-[124px] font-normal leading-[100%] tracking-[0%] text-center text-[var(--color-text-accent)] font-[family-name:var(--font-random-grotesque)]">
@@ -135,7 +135,7 @@ const TreasurySection: React.FC = () => {
         
         {/* Right Panel - Total dividends paid */}
         <div className="flex-1 text-center pb-8 pt-8">
-          <p className="text-[14px] font-light leading-[150%] tracking-[0%] text-white mb-2 font-[family-name:var(--font-martian-mono)]">
+          <p className="text-[14px] font-light leading-[150%] tracking-[0%] text-black mb-2 font-[family-name:var(--font-martian-mono)]">
             Total dividends<br className="lg:hidden" /> paid
           </p>
           <p className="text-[60px] lg:text-[124px] font-normal leading-[100%] tracking-[0%] text-center text-[var(--color-text-accent)] font-[family-name:var(--font-random-grotesque)]">
@@ -151,16 +151,16 @@ const TreasurySection: React.FC = () => {
       <div className="w-full border-b border-[var(--color-border-accent)]">
         <div className="p-6 flex justify-center items-center">
           <div className="flex items-center gap-2">
-            <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]">
+            <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]">
               This epoch 
             </span>
-            <span className="text-[48px] lg:text-[72px] font-normal leading-[100%] tracking-[0%] text-[#00FF00] font-[family-name:var(--font-random-grotesque)]">
+            <span className="text-[48px] lg:text-[72px] font-normal leading-[100%] tracking-[0%] text-[#E91E63] font-[family-name:var(--font-random-grotesque)]">
               <AnimatedValue
                 isLoading={!hasEpochInfoLoaded || !hasPenguPriceLoaded}
                 value={`$${treasuryUSDValue}`}
               />
             </span>
-            <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]">
+            <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]">
               will be distributed 
             </span>
           </div>
@@ -168,31 +168,31 @@ const TreasurySection: React.FC = () => {
       </div>
       
       {/* Dividends Explanation */}
-      <div className="w-full border-b border-[var(--color-border-accent)]" style={{backgroundColor: 'rgba(96,255,255,0.05)'}}>
+      <div className="w-full border-b border-[var(--color-border-accent)]" style={{backgroundColor: 'rgba(253,206,219,0.05)'}}>
         <div className="p-8">
           <div className="text-left max-w-[570px]">
-            <h3 className="text-[20px] text-white mb-4 font-[family-name:var(--font-martian-mono)]">
+            <h3 className="text-[20px] text-black mb-4 font-[family-name:var(--font-martian-mono)]">
               <span className="text-[var(--color-text-accent)]">Dividends every epoch</span>
             </h3>
             <ul className="text-[14px] font-light leading-[180%] font-[family-name:var(--font-martian-mono)] space-y-2 list-none">
               <li className="flex items-start">
-                <span className="text-white pr-2 mt-0.5">—</span> 
-                <span><span className="text-[16px] text-[var(--color-text-accent)] font-normal">30%</span> of all $PENGU bought is distributed to holders as dividends.</span>
+                <span className="text-black pr-2 mt-0.5">—</span> 
+                <span><span className="text-[16px] text-[var(--color-text-accent)] font-normal">30%</span> of all $POLLY bought is distributed to holders as dividends.</span>
               </li>
               <li className="flex items-start">
-                <span className="text-white pr-2 mt-0.5">—</span>
+                <span className="text-black pr-2 mt-0.5">—</span>
                 <span>Epoch = <span className="text-[16px] text-[var(--color-text-accent)] font-normal">7 days</span>. Final snapshot is on Sunday.</span>
               </li>
               <li className="flex items-start">
-                <span className="text-white pr-2 mt-0.5">—</span>
+                <span className="text-black pr-2 mt-0.5">—</span>
                 <span>Your share scales with how many $PST you hold and how many days you hold during the epoch.</span>
               </li>
               <li className="flex items-start">
-                <span className="text-white pr-2 mt-0.5">—</span>
+                <span className="text-black pr-2 mt-0.5">—</span>
                 <span>Hold continuously to maximize your payout.</span>
               </li>
               <li className="flex items-start">
-                <span className="text-white pr-2 mt-0.5">—</span>
+                <span className="text-black pr-2 mt-0.5">—</span>
                 <span>
                   <Link 
                     href="/claim"
@@ -203,8 +203,8 @@ const TreasurySection: React.FC = () => {
                 </span>
               </li>
             </ul>
-            <div className="mt-6 p-2 bg-gray-800/30 border-2 border-[var(--color-border-accent)] rounded">
-              <p className="text-[13px] font-light text-white font-[family-name:var(--font-martian-mono)]">
+            <div style={{ backgroundColor: 'rgb(253, 206, 219)' }} className="mt-6 p-2 border-2 border-[var(--color-border-accent)] rounded">
+              <p className="text-[13px] font-light text-black font-[family-name:var(--font-martian-mono)]">
                 <span className="text-[var(--color-text-accent)]">Note:</span> You must be included in the final Sunday snapshot to be eligible to claim for the current epoch.
               </p>
             </div>

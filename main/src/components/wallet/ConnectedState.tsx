@@ -16,7 +16,7 @@ export function ConnectedState() {
           <p className="text-sm sm:text-base font-medium font-[family-name:var(--font-roobert)] mb-1">
             Connected to Abstract Global Wallet
           </p>
-          <p className="text-xs text-gray-400 font-mono break-all">{address}</p>
+          <p className="text-xs text-gray-700 font-mono break-all">{address}</p>
         </div>
 
         {/* Action Buttons */}

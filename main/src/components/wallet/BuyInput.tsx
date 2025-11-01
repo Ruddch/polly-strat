@@ -43,7 +43,7 @@ export function BuyInput({ onBuy }: BuyInputProps) {
             value={amount}
             onChange={(e) => setAmount(e.target.value)}
             placeholder="Amount"
-            className="w-full px-3 py-2 text-[12px] font-light bg-transparent border border-[var(--color-border-accent)] rounded text-white placeholder-white/40 font-[family-name:var(--font-martian-mono)] focus:outline-none focus:border-[var(--color-text-accent)]"
+            className="w-full px-3 py-2 text-[12px] font-light bg-transparent border border-[var(--color-border-accent)] rounded text-black placeholder-black/40 font-[family-name:var(--font-martian-mono)] focus:outline-none focus:border-[var(--color-text-accent)]"
             min="0"
             step="0.001"
             disabled={isPending || !isConnected}
@@ -51,21 +51,21 @@ export function BuyInput({ onBuy }: BuyInputProps) {
           <div className="flex gap-2">
             <button
               onClick={() => setAmount("1")}
-              className="px-2 py-1 text-[10px] font-light bg-transparent border border-[var(--color-border-accent)] rounded text-white hover:opacity-80 transition-opacity font-[family-name:var(--font-martian-mono)] disabled:opacity-50 cursor-pointer"
+              className="px-2 py-1 text-[10px] font-light bg-transparent border border-[var(--color-border-accent)] rounded text-black hover:opacity-80 transition-opacity font-[family-name:var(--font-martian-mono)] disabled:opacity-50 cursor-pointer"
               disabled={isPending || !isConnected}
             >
               1 ETH
             </button>
             <button
               onClick={() => setAmount("0.1")}
-              className="px-2 py-1 text-[10px] font-light bg-transparent border border-[var(--color-border-accent)] rounded text-white hover:opacity-80 transition-opacity font-[family-name:var(--font-martian-mono)] disabled:opacity-50 cursor-pointer"
+              className="px-2 py-1 text-[10px] font-light bg-transparent border border-[var(--color-border-accent)] rounded text-black hover:opacity-80 transition-opacity font-[family-name:var(--font-martian-mono)] disabled:opacity-50 cursor-pointer"
               disabled={isPending || !isConnected}
             >
               0.1 ETH
             </button>
             <button
               onClick={() => setAmount("0.01")}
-              className="px-2 py-1 text-[10px] font-light bg-transparent border border-[var(--color-border-accent)] rounded text-white hover:opacity-80 transition-opacity font-[family-name:var(--font-martian-mono)] disabled:opacity-50 cursor-pointer"
+              className="px-2 py-1 text-[10px] font-light bg-transparent border border-[var(--color-border-accent)] rounded text-black hover:opacity-80 transition-opacity font-[family-name:var(--font-martian-mono)] disabled:opacity-50 cursor-pointer"
               disabled={isPending || !isConnected}
             >
               0.01 ETH
@@ -75,7 +75,7 @@ export function BuyInput({ onBuy }: BuyInputProps) {
       </div>
       
         <div className="mt-2 space-y-1">
-          <div className="text-[12px] text-white/60 font-[family-name:var(--font-martian-mono)]">
+          <div className="text-[12px] text-black/60 font-[family-name:var(--font-martian-mono)]">
             {isLoadingExpected ? (
               <span>Calculating...</span>
             ) : (
@@ -90,10 +90,10 @@ export function BuyInput({ onBuy }: BuyInputProps) {
                   
                   return (
                     <>
-                      <div className="text-white/80">
+                      <div className="text-black/80">
                         Expected: {parseFloat(formatUnits(actualAmount, 18)).toLocaleString('en-US', { maximumFractionDigits: 2 })} PST
                       </div>
-                      <div className="text-white/40">
+                      <div className="text-black/40">
                         Minimum: {parseFloat(formatUnits(minAmount, 18)).toLocaleString('en-US', { maximumFractionDigits: 2 })} PST
                       </div>
                     </>
@@ -106,14 +106,14 @@ export function BuyInput({ onBuy }: BuyInputProps) {
 
       <div className="mt-3 space-y-1">
         <div className="flex items-center justify-between mb-1">
-          <label className="text-[10px] text-white/60 font-[family-name:var(--font-martian-mono)]">
+          <label className="text-[10px] text-black/60 font-[family-name:var(--font-martian-mono)]">
             Slippage (min 11%)
           </label>
           <div className="flex items-center gap-2">
             <input
               type="number"
               min="11"
-              max="50"
+              max="100"
               step="0.1"
               value={slippage}
               onChange={(e) => {
@@ -122,21 +122,21 @@ export function BuyInput({ onBuy }: BuyInputProps) {
                   setSlippage(value);
                 }
               }}
-              className="w-16 px-2 py-1 text-[10px] font-light bg-transparent border border-[var(--color-border-accent)] rounded text-white text-center font-[family-name:var(--font-martian-mono)] focus:outline-none focus:border-[var(--color-text-accent)]"
+              className="w-16 px-2 py-1 text-[10px] font-light bg-transparent border border-[var(--color-border-accent)] rounded text-black text-center font-[family-name:var(--font-martian-mono)] focus:outline-none focus:border-[var(--color-text-accent)]"
             />
-            <span className="text-[10px] text-white/60">%</span>
+            <span className="text-[10px] text-black/60">%</span>
           </div>
         </div>
         <input
           type="range"
           min="11"
-          max="50"
+          max="100"
           step="0.1"
           value={slippage}
           onChange={(e) => setSlippage(e.target.value)}
           className="w-full h-1 bg-[var(--color-border-accent)] rounded-lg appearance-none cursor-pointer slider"
           style={{
-            background: `linear-gradient(to right, rgba(0, 255, 251, 1) 0%, rgba(0, 255, 251, 1) ${((parseFloat(slippage) - 11) / 39) * 100}%, var(--color-border-accent) ${((parseFloat(slippage || '11') - 11) / 39) * 100}%, var(--color-border-accent) 100%)`
+            background: `linear-gradient(to right, rgba(253, 206, 219, 1) 0%, rgba(253, 206, 219, 1) ${((parseFloat(slippage) - 11) / 89) * 100}%, var(--color-border-accent) ${((parseFloat(slippage || '11') - 11) / 89) * 100}%, var(--color-border-accent) 100%)`
           }}
         />
       </div>
@@ -145,8 +145,8 @@ export function BuyInput({ onBuy }: BuyInputProps) {
         onClick={handleBuy}
         className="block w-full py-4 px-2 flex items-center justify-center gap-2.5 transition-colors hover:opacity-80 cursor-pointer font-[family-name:var(--font-martian-mono)] text-sm font-light leading-[150%] tracking-[0%] text-center disabled:opacity-50 disabled:cursor-not-allowed mt-4"
         style={{
-          backgroundColor: 'rgba(0, 255, 251, 1)',
-          color: 'rgba(1, 27, 35, 1)'
+          backgroundColor: 'rgba(253, 206, 219, 1)',
+          color: '#000000'
         }}
         disabled={isPending || !amount || parseFloat(amount) <= 0 || !isConnected}
       >

@@ -275,11 +275,11 @@ export default function ClaimPage() {
       <div className="ml-0 mr-0 lg:ml-64 lg:mr-64 font-[family-name:var(--font-avenue-mono)] h-screen no-scrollbar overflow-y-scroll snap-y snap-mandatory">
       <div id="claim" className="relative grid grid-rows-[1fr_auto] min-h-screen snap-start">
         <ResponsiveBackgroundEffects message="CLAIM" mobileFontSize={80} desktopFontSize={200} />
-        <main className="relative flex flex-col justify-between h-full z-10 text-white">
+        <main className="relative flex flex-col justify-between h-full z-10 text-black">
           {/* Top Section - Metrics */}
           <div className="flex justify-between w-full border-b border-[var(--color-border-accent)]">
             <div className="flex-1 text-center pb-7 pt-13 border-r border-[var(--color-border-accent)]">
-              <p className="text-sm text-gray-300 mb-2 font-[family-name:var(--font-martian-mono)]">
+              <p className="text-sm text-black mb-2 font-[family-name:var(--font-martian-mono)]">
                 Total claimed dividends
               </p>
               <p className="text-[60px] lg:text-[124px] font-normal leading-[100%] tracking-[0%] text-center text-[var(--color-text-accent)] font-[family-name:var(--font-random-grotesque)]">
@@ -290,7 +290,7 @@ export default function ClaimPage() {
               </p>
             </div>
             <div className="flex-1 text-center pb-7 pt-13">
-              <p className="text-sm text-gray-300 mb-2 font-[family-name:var(--font-martian-mono)]">
+              <p className="text-sm text-black mb-2 font-[family-name:var(--font-martian-mono)]">
                 This week<br className="lg:hidden" /> dividends
               </p>
               <p className="text-[60px] lg:text-[124px] font-normal leading-[100%] tracking-[0%] text-center text-[var(--color-text-accent)] font-[family-name:var(--font-random-grotesque)]">
@@ -313,8 +313,8 @@ export default function ClaimPage() {
             {/* Left Text Block - 1/4 width */}
             <div className={`${address ? 'w-1/2' : 'w-1/4'}`}>
               <div className="space-y-2">
-                <p className="text-sm p-2 text-white font-[family-name:var(--font-martian-mono)]">
-                 {merkleData?.claimAmount  ? 'You are eligible to claim ' + formatTokenBalance(merkleData.claimAmount) + ' PENGU' 
+                <p className="text-sm p-2 text-black font-[family-name:var(--font-martian-mono)]">
+                 {merkleData?.claimAmount  ? 'You are eligible to claim ' + formatTokenBalance(merkleData.claimAmount) + ' POLLY' 
                  : address ? 'You are not eligible to claim any dividends' : ''} 
                 </p>
               </div>
@@ -329,8 +329,8 @@ export default function ClaimPage() {
                       onClick={isConnected ? handleClaim : show}
                       className="w-full px-2 py-6 flex items-center justify-center transition-colors hover:opacity-80 disabled:opacity-50 cursor-pointer"
                       style={{
-                        backgroundColor: 'rgba(96, 255, 255, 0.12)',
-                        border: '1px solid rgba(20, 78, 82, 1)'
+                        backgroundColor: 'rgba(253, 206, 219, 0.12)',
+                        border: '1px solid rgba(253, 206, 219, 1)'
                       }}
                       disabled={isConnected && (isClaimableInfoLoading || 
                         isLoadingMerkleData || 
@@ -341,7 +341,7 @@ export default function ClaimPage() {
                           merkleData.claimAmount === BigInt(0))}
                     >
                       <span className="text-[24px] lg:text-[48px] font-normal leading-[100%] tracking-[0%] text-center font-[family-name:var(--font-random-grotesque)]"
-                        style={{ color: 'rgba(0, 255, 251, 1)' }}
+                        style={{ color: 'rgba(233, 30, 99, 1)' }}
                       >
                         {isConnecting ? (
                           <div className="animate-spin w-4 h-4 lg:w-8 lg:h-8 border-2 border-current border-t-transparent rounded-full" />
@@ -367,17 +367,17 @@ export default function ClaimPage() {
                {/* Last Payouts Table */}
                <div className="flex w-full border-b border-[var(--color-border-accent)]">
                  <div className="flex-1 text-left p-2">
-                   <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]">
+                   <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]">
                      Wallet address
                    </span>
                  </div>
                  <div className="flex-1 p-2">
-                   <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]">
+                   <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]">
                      Amount
                    </span>
                  </div>
                  <div className="flex-1 p-2">
-                   <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]">
+                   <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]">
                      Date and time
                    </span>
                  </div>
@@ -390,9 +390,9 @@ export default function ClaimPage() {
                    </div>
                  ) : recentClaims.length > 0 ? (
                    recentClaims.map((claim, index) => (
-                     <div key={claim.id} className={`flex w-full ${index % 2 === 1 ? 'bg-[rgba(96,255,255,0.05)]' : ''}`}>
+                     <div key={claim.id} className={`flex w-full ${index % 2 === 1 ? 'bg-[rgba(253,206,219,0.05)]' : ''}`}>
                        <div className="flex-1 flex items-center text-left p-2 py-5 border-b border-[var(--color-border-accent)]">
-                          <span className="text-sm font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]"
+                          <span className="text-sm font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]"
                           >
                            {truncateAddress(claim.walletAddress)}
                          </span>
@@ -402,14 +402,14 @@ export default function ClaimPage() {
                            <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-[var(--color-text-accent)] font-[family-name:var(--font-random-grotesque)]">
                              {claim.amount}
                            </span>
-                             <span className="text-sm font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]"
+                             <span className="text-sm font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]"
                              >
-                             PENGU
+                             POLLY
                            </span>
                          </div>
                        </div>
                        <div className="flex-1 flex items-center p-2 py-5 border-l border-b border-[var(--color-border-accent)]">
-                         <span className="text-sm font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]"
+                         <span className="text-sm font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]"
                            >
                            {claim.date}
                          </span>

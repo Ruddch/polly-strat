@@ -78,7 +78,7 @@ const TakeProfitTable: React.FC = () => {
           href="https://abscan.org/address/0xfad5bbdc406888c026312c6108a7f9258631b4c9" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="text-[14px] font-light leading-[150%] tracking-[0%] text-white hover:text-[var(--color-text-accent)] transition-colors duration-200 font-[family-name:var(--font-martian-mono)] underline"
+          className="text-[14px] font-light leading-[150%] tracking-[0%] text-black hover:text-[var(--color-text-accent)] transition-colors duration-200 font-[family-name:var(--font-martian-mono)] underline"
         >
           View Contract
         </a>
@@ -87,22 +87,22 @@ const TakeProfitTable: React.FC = () => {
       {/* Take Profit Table */}
       <div className="flex w-full border-b border-[var(--color-border-accent)]">
         <div className="flex-1 text-left p-2">
-          <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]">
-            PENGU amount
+          <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]">
+            POLLY amount
           </span>
         </div>
         <div className="flex-1 p-2">
-          <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]">
+          <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]">
             ETH buy Price
           </span>
         </div>
         <div className="flex-1 p-2">
-          <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]">
+          <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]">
             ETH sell Price
           </span>
         </div>
         <div className="flex-1 p-2">
-          <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]">
+          <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]">
             Predicted Gain
           </span>
         </div>
@@ -116,7 +116,7 @@ const TakeProfitTable: React.FC = () => {
       ) : closestLots.length === 0 ? (
         <div className="flex pt-8 pb-8 w-full">
           <div className="flex-1 py-8 text-center p-8">
-            <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-white font-[family-name:var(--font-random-grotesque)]">
+            <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-black font-[family-name:var(--font-random-grotesque)]">
               No active lots
             </span>
           </div>
@@ -148,30 +148,30 @@ const TakeProfitTable: React.FC = () => {
             <div key={lot.id} className="relative overflow-hidden">
               {/* Progress Bar Background */}
               <div 
-                className="absolute inset-0 bg-gradient-to-r from-[rgba(96,255,255,0.1)] to-[rgba(0,255,0,0.1)] transition-all duration-500 ease-out"
+                className="absolute inset-0 bg-gradient-to-r from-[rgba(253,206,219,0.1)] to-[rgba(253,206,219,0.1)] transition-all duration-500 ease-out"
                 style={{ width: `${progressPercentage}%` }}
               />
               
               {/* Table Row Content */}
-              <div className={`relative flex w-full ${index % 2 === 1 ? 'bg-[rgba(96,255,255,0.05)]' : ''}`}>
+              <div className={`relative flex w-full ${index % 2 === 1 ? 'bg-[rgba(253,206,219,0.05)]' : ''}`}>
                 <div className="flex-1 text-left p-2 pb-8 pt-8 border-b border-[var(--color-border-accent)]">
-                  <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-white font-[family-name:var(--font-random-grotesque)]">
+                  <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-black font-[family-name:var(--font-random-grotesque)]">
                     {formatTokenBalance(lot.amountPengu, 18, 0)}
                   </span>
                 </div>
                 <div className="flex-1 border-l p-2 pb-8 pt-8 border-b border-[var(--color-border-accent)]">
-                  <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-white font-[family-name:var(--font-random-grotesque)]">
+                  <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-black font-[family-name:var(--font-random-grotesque)]">
                     {formatTokenPrice(lot.avgPriceWeiPerPengu)}
                   </span>
                 </div>
                 <div className="flex-1 border-l p-2 pb-8 pt-8 border-b border-[var(--color-border-accent)]">
-                  <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-white font-[family-name:var(--font-random-grotesque)]">
+                  <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-black font-[family-name:var(--font-random-grotesque)]">
                     {formatTokenPrice((lot.avgPriceWeiPerPengu * BigInt(110)) / BigInt(100))}
                   </span>
                 </div>
                 <div className="flex-1 p-2 pb-8 pt-8 border-l border-b border-[var(--color-border-accent)]">
                   <div className="flex items-center justify-between">
-                    <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-[#00FF00] font-[family-name:var(--font-random-grotesque)]">
+                    <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-[#E91E63] font-[family-name:var(--font-random-grotesque)]">
                       ${predictedGain.toFixed(2)}
                     </span>
                   </div>
@@ -186,22 +186,22 @@ const TakeProfitTable: React.FC = () => {
       {hasInitiallyLoaded && closestLots.length > 0 && (
         <div className="flex w-full">
           <div className="flex-1 text-left border-r border-[var(--color-border-accent)] p-2">
-            <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]">
-              Total PENGU Amount
+            <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]">
+              Total POLLY Amount
             </span>
           </div>
           <div className="flex-1 p-2">
-            <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]">
+            <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]">
               
             </span>
           </div>
           <div className="flex-1 p-2 border-l border-[var(--color-border-accent)]">
-            <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]">
-              Current PENGU price (ETH)
+            <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]">
+              Current POLLY price (ETH)
             </span>
           </div>
           <div className="flex-1 p-2 border-l border-[var(--color-border-accent)]">
-            <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-white font-[family-name:var(--font-martian-mono)]">
+            <span className="text-[14px] font-light leading-[150%] tracking-[0%] text-black font-[family-name:var(--font-martian-mono)]">
               Total Predicted Gain
             </span>
           </div>
@@ -212,7 +212,7 @@ const TakeProfitTable: React.FC = () => {
       {hasInitiallyLoaded && closestLots.length > 0 && (
         <div className="flex w-full border-t border-b border-[var(--color-border-accent)]">
           <div className="flex-1 text-left p-2 pb-8 pt-8">
-            <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-white font-[family-name:var(--font-random-grotesque)]">
+            <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-black font-[family-name:var(--font-random-grotesque)]">
               {formatTokenBalance(
                 closestLots.reduce((total, lot) => total + lot.amountPengu, BigInt(0)),
                 18,
@@ -221,12 +221,12 @@ const TakeProfitTable: React.FC = () => {
             </span>
           </div>
           <div className="flex-1 border-l border-[var(--color-border-accent)] p-2 pb-8 pt-8">
-            <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-white font-[family-name:var(--font-random-grotesque)]">
+            <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-black font-[family-name:var(--font-random-grotesque)]">
               
             </span>
           </div>
           <div className="flex-1 p-2 pb-8 pt-8">
-            <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-white font-[family-name:var(--font-random-grotesque)]">
+            <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-black font-[family-name:var(--font-random-grotesque)]">
               {isPenguPriceLoading || isEthPriceLoading ? (
                 <div className="animate-spin w-6 h-6 border-2 border-current border-t-transparent rounded-full" />
               ) : (
@@ -235,7 +235,7 @@ const TakeProfitTable: React.FC = () => {
             </span>
           </div>
           <div className="flex-1 p-2 pb-8 pt-8 border-l border-[var(--color-border-accent)]">
-            <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-[#00FF00] font-[family-name:var(--font-random-grotesque)]">
+            <span className="text-[20px] lg:text-[40px] font-normal leading-[100%] tracking-[0%] text-[#E91E63] font-[family-name:var(--font-random-grotesque)]">
               ${closestLots.reduce((total, lot) => {
                 const ethSpentNumber = Number(lot.ethSpent) / 1e18;
                 const predictedGain = isEthPriceLoading ? 0 : ethSpentNumber * 1.1 * ethPrice;
@@ -251,7 +251,7 @@ const TakeProfitTable: React.FC = () => {
         <div className="flex w-full justify-center p-4">
           <button
             onClick={() => setShowAll(!showAll)}
-            className="px-6 py-2 bg-transparent border border-[var(--color-border-accent)] text-white hover:bg-[rgba(96,255,255,0.1)] transition-colors duration-200 font-[family-name:var(--font-martian-mono)] text-[14px] cursor-pointer"
+            className="px-6 py-2 bg-transparent border border-[var(--color-border-accent)] text-black hover:bg-[rgba(253,206,219,0.1)] transition-colors duration-200 font-[family-name:var(--font-martian-mono)] text-[14px] cursor-pointer"
           >
             {showAll ? 'Show Less' : `Show More (${closestLots.length - 4} more)`}
           </button>
