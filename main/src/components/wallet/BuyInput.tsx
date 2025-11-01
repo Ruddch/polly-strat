@@ -136,7 +136,7 @@ export function BuyInput({ onBuy }: BuyInputProps) {
           onChange={(e) => setSlippage(e.target.value)}
           className="w-full h-1 bg-[var(--color-border-accent)] rounded-lg appearance-none cursor-pointer slider"
           style={{
-            background: `linear-gradient(to right, rgba(253, 206, 219, 1) 0%, rgba(253, 206, 219, 1) ${((parseFloat(slippage) - 11) / 89) * 100}%, var(--color-border-accent) ${((parseFloat(slippage || '11') - 11) / 89) * 100}%, var(--color-border-accent) 100%)`
+            background:`linear-gradient(to right, rgba(253, 206, 219, 1) 0%, rgba(253, 206, 219, 1) ${((parseFloat(slippage) - 11) / 89) * 100}%, var(--color-border-accent) ${((parseFloat(slippage || '11') - 11) / 89) * 100}%, var(--color-border-accent) 100%)`
           }}
         />
       </div>
