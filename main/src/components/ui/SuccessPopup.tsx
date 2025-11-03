@@ -45,7 +45,7 @@ const SuccessPopup: React.FC<SuccessPopupProps> = ({
   };
 
   const handleShare = () => {
-    const tweetText = `Just claimed my ${claimAmount} POLLY rewards for holding $PST this week
+    const tweetText = `Just claimed my ${claimAmount} POLLY rewards for holding $POLLYSTR this week
 
 @PudgyInvest perpetual machine keeps printing`;
     const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`;

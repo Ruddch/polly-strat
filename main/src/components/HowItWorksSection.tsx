@@ -40,7 +40,7 @@ const HowItWorksSection: React.FC = () => {
                 <span className="text-[var(--color-text-accent)]">1.</span> Fee mechanics
               </h3>
               <p className="text-[14px] font-light leading-[180%] text-gray-700 font-[family-name:var(--font-martian-mono)]">
-                Every trade of $PST comes with a <span className="text-[16px] text-[var(--color-text-accent)] font-normal">10%</span> fee.<br/>
+                Every trade of $POLLYSTR comes with a <span className="text-[16px] text-[var(--color-text-accent)] font-normal">10%</span> fee.<br/>
                 From that — <span className="text-[16px] text-[var(--color-text-accent)] font-normal">8%</span> goes toward automatic $POLLY buybacks, 
                 <span className="text-[16px] text-[var(--color-text-accent)] font-normal">1%</span> POLLY team, 
                 and <span className="text-[16px] text-[var(--color-text-accent)] font-normal">1%</span> goes to $PST buybacks.
@@ -98,7 +98,7 @@ const HowItWorksSection: React.FC = () => {
                   predefined price target 
                 </button>,
                 it is automatically sold, 
-                and the proceeds are used to buy back and burn $PST, 
+                and the proceeds are used to buy back and burn $POLLYSTR, 
                 reducing supply and strengthening the ecosystem. 
               </p>
             </div>

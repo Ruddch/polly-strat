@@ -185,7 +185,7 @@ const TreasurySection: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <span className="text-black pr-2 mt-0.5">—</span>
-                <span>Your share scales with how many $PST you hold and how many days you hold during the epoch.</span>
+                <span>Your share scales with how many $POLLYSTR you hold and how many days you hold during the epoch.</span>
               </li>
               <li className="flex items-start">
                 <span className="text-black pr-2 mt-0.5">—</span>

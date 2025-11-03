@@ -47,7 +47,7 @@ export default function TradingSection() {
           <div className="">
             
             <h3 className=" mb-4 text-lg font-light text-gray-700 font-[family-name:var(--font-martian-mono)]">
-              Buy $PST
+              Buy $POLLYSTR
             </h3>
             <WalletBalance />
             <BuyInput onBuy={handleBuy} />
@@ -57,7 +57,7 @@ export default function TradingSection() {
         <div className="w-full p-4 pt-8 pb-8 border-b border-[var(--color-border-accent)]">
           <div className="">
             <h3 className="mb-4 text-lg font-light text-gray-700 font-[family-name:var(--font-martian-mono)]">
-              Sell $PST
+              Sell $POLLYSTR
             </h3>
             <StratTokenBalance />
             <SellInput onSell={handleSell} />

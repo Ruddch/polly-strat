@@ -91,10 +91,10 @@ export function BuyInput({ onBuy }: BuyInputProps) {
                   return (
                     <>
                       <div className="text-black/80">
-                        Expected: {parseFloat(formatUnits(actualAmount, 18)).toLocaleString('en-US', { maximumFractionDigits: 2 })} PST
+                        Expected: {parseFloat(formatUnits(actualAmount, 18)).toLocaleString('en-US', { maximumFractionDigits: 2 })} POLLYSTR
                       </div>
                       <div className="text-black/40">
-                        Minimum: {parseFloat(formatUnits(minAmount, 18)).toLocaleString('en-US', { maximumFractionDigits: 2 })} PST
+                        Minimum: {parseFloat(formatUnits(minAmount, 18)).toLocaleString('en-US', { maximumFractionDigits: 2 })} POLLYSTR
                       </div>
                     </>
                   );
