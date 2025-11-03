@@ -109,7 +109,7 @@ const TreasurySection: React.FC = () => {
           Holders Dividends
         </h2>
         <a 
-          href="https://abscan.org/address/0x2fafa047a6174705460732f42854dac966686263"
+          href="https://abscan.org/address/0xe8fa3aae1693ee1c7220e0ba8da2a9462a829d61"
           target="_blank"
           rel="noopener noreferrer"
           className="text-[14px] font-light leading-[150%] tracking-[0%] text-black hover:text-[var(--color-text-accent)] transition-colors font-[family-name:var(--font-martian-mono)] underline underline-offset-2"

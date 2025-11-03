@@ -75,7 +75,7 @@ const TakeProfitTable: React.FC = () => {
           Upcoming Sales
         </h2>
         <a 
-          href="https://abscan.org/address/0xfad5bbdc406888c026312c6108a7f9258631b4c9" 
+          href="https://abscan.org/address/0x340c7141d463b97812af997fe0f5ad6fb91c62bb" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-[14px] font-light leading-[150%] tracking-[0%] text-black hover:text-[var(--color-text-accent)] transition-colors duration-200 font-[family-name:var(--font-martian-mono)] underline"
