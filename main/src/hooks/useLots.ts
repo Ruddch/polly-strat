@@ -83,10 +83,7 @@ export const useLots = () => {
         const lotId = Number(id);
         
         // Apply price adjustment for lots with ID 0-10
-        let adjustedAvgPrice = lot.avgPriceWeiPerPengu;
-        if (lotId >= 0 && lotId <= 10) {
-          adjustedAvgPrice = BigInt(Math.floor(Number(lot.avgPriceWeiPerPengu) * 0.8687));
-        }
+        const adjustedAvgPrice = lot.avgPriceWeiPerPengu;
         
         return {
           id: lotId,
