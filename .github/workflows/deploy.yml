@@ -33,11 +33,11 @@ jobs:
         
       - name: Build Next.js app
         run: cd main && npm run export
-        env:
-          NEXT_PUBLIC_GH_PAGES: 'true'
         
-      - name: Copy .nojekyll file
-        run: cp main/.nojekyll main/out/
+      - name: Add .nojekyll and CNAME
+        run: |
+          touch main/out/.nojekyll
+          echo "pollystrategy.com" > main/out/CNAME
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
