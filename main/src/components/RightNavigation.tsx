@@ -36,7 +36,7 @@ export function RightNavigation() {
             </svg>
           </a>
           <a
-            href="https://dexscreener.com/abstract/0x881c97da8146aae6bc04437a36b0da37d89a8530"
+            href="https://dexscreener.com/abstract/0x526c6a6fdAb169ea37c3AbbFbE31d765b23b9747"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:opacity-80 transition-opacity cursor-pointer"
