@@ -21,10 +21,10 @@ const TakeProfitTable: React.FC = () => {
         const data = await response.json();
         
         if (data.pairs && data.pairs.length > 0) {
-          // Find the specific pair with address 0xb560B29f35ab7b3517F3F2186a4552FF4978369b
+          // Find the specific pair with address 0x51aFCb298C275C13C59B38f1caBB5900268A8C8A
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
           const targetPair = data.pairs.find((pair: any) => 
-            pair.pairAddress?.toLowerCase() === '0xb560B29f35ab7b3517F3F2186a4552FF4978369b'.toLowerCase()
+            pair.pairAddress?.toLowerCase() === '0x51aFCb298C275C13C59B38f1caBB5900268A8C8A'.toLowerCase()
           );
           
           if (targetPair) {
@@ -148,7 +148,7 @@ const TakeProfitTable: React.FC = () => {
             <div key={lot.id} className="relative overflow-hidden">
               {/* Progress Bar Background */}
               <div 
-                className="absolute inset-0 bg-gradient-to-r from-[rgba(253,206,219,0.1)] to-[rgba(253,206,219,0.1)] transition-all duration-500 ease-out"
+                className="absolute inset-0 bg-gradient-to-r from-[#fccce463] to-[#fa90c985] transition-all duration-500 ease-out"
                 style={{ width: `${progressPercentage}%` }}
               />
               

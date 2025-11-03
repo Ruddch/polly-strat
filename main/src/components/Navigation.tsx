@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useScroll } from "@/contexts/ScrollContext";
+import Image from "next/image";
 
 export function Navigation() {
   const pathname = usePathname();
@@ -26,9 +27,12 @@ export function Navigation() {
         {/* Logo/Brand */}
         <div className="mb-8">
           <Link href="/" className="block hover:opacity-80 transition-opacity cursor-pointer">
-            <h1 className="text-[20px] w-41 font-light leading-[150%] tracking-[0%] text-[var(--color-text-accent)] font-[family-name:var(--font-martian-mono)]">
-              POLLY<br/>STRATEGY
-            </h1>
+            <div className="flex items-center gap-3">
+              <h1 className="text-[20px] w-41 font-light leading-[150%] tracking-[0%] text-[var(--color-text-accent)] font-[family-name:var(--font-martian-mono)]">
+                POLLY<br/>STRATEGY
+              </h1>
+              <Image src="/polly.png" alt="Polly" width={100} height={100} />
+            </div>
           </Link>
           
           {/* Navigation Links - Only show on home page */}
@@ -126,14 +130,14 @@ export function Navigation() {
             >
               Claim
             </Link>
-            <a
+            {/* <a
               href="https://pengu-strategy.gitbook.io/pengu-strategy/"
               target="_blank"
               rel="noopener noreferrer"
               className="block text-[14px] font-light leading-[150%] tracking-[0%] font-[family-name:var(--font-martian-mono)] hover:opacity-80 transition-opacity cursor-pointer text-black"
             >
               Docs
-            </a>
+            </a> */}
           </div>
         </div>
         

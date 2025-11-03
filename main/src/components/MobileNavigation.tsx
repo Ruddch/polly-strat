@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useScroll } from "@/contexts/ScrollContext";
 import { SignInButton } from "@/components/wallet/SignInButton";
+import Image from "next/image";
 
 export function MobileNavigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,16 +52,19 @@ export function MobileNavigation() {
       )}
 
       {/* Мобильное меню */}
-      <div className={`fixed top-0 left-0 bottom-0 w-80 max-w-[85vw] bg-black border-r border-[var(--color-border-accent)] z-40 transform transition-transform duration-300 lg:hidden ${
+      <div className={`fixed top-0 left-0 bottom-0 w-80 max-w-[85vw] bg-[#FFE7F3] border-r border-[var(--color-border-accent)] z-40 transform transition-transform duration-300 lg:hidden ${
         isOpen ? 'translate-x-0' : '-translate-x-full'
       }`}>
         <div className="flex flex-col h-full p-6 pt-16">
           {/* Logo/Brand */}
           <div className="mb-8">
             <Link href="/" className="block hover:opacity-80 transition-opacity cursor-pointer" onClick={() => setIsOpen(false)}>
-              <h1 className="text-[20px] font-light leading-[150%] tracking-[0%] text-[var(--color-text-accent)] font-[family-name:var(--font-martian-mono)]">
-                POLLY<br/>STRATEGY
-              </h1>
+              <div className="flex justify-between items-center gap-3">
+                <h1 className="text-[20px] font-light leading-[150%] tracking-[0%] text-[var(--color-text-accent)] font-[family-name:var(--font-martian-mono)]">
+                  POLLY<br/>STRATEGY
+                </h1>
+                <Image src="/polly.png" alt="Polly" width={100} height={100} />
+              </div>
             </Link>
             
             {/* Navigation Links - Only show on home page */}
@@ -155,7 +159,7 @@ export function MobileNavigation() {
             >
               Claim
             </Link>
-            <a
+            {/* <a
               href="https://pengu-strategy.gitbook.io/pengu-strategy/"
               target="_blank"
               rel="noopener noreferrer"
@@ -163,7 +167,7 @@ export function MobileNavigation() {
               onClick={() => setIsOpen(false)}
             >
               Docs
-            </a>
+            </a> */}
           </div>
           
           {/* Social Links */}

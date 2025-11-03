@@ -327,10 +327,9 @@ export default function ClaimPage() {
                   return (
                     <button 
                       onClick={isConnected ? handleClaim : show}
-                      className="w-full px-2 py-6 flex items-center justify-center transition-colors hover:opacity-80 disabled:opacity-50 cursor-pointer"
+                      className="w-full border-l border-solid border-[var(--color-border-accent)] px-2 py-6 flex items-center justify-center transition-colors hover:opacity-80 disabled:opacity-50 cursor-pointer"
                       style={{
-                        backgroundColor: 'rgba(253, 206, 219, 0.12)',
-                        border: '1px solid rgba(253, 206, 219, 1)'
+                        backgroundColor: 'rgba(253, 206, 219, 0.12)'
                       }}
                       disabled={isConnected && (isClaimableInfoLoading || 
                         isLoadingMerkleData || 

@@ -80,7 +80,7 @@ interface BackgroundEffectsProps {
 }
 
 export function BackgroundEffects({ 
-    message = 'PENGU STRATEGY',
+    message = 'POLLY STRATEGY',
     fontSize = 200,
     fontColor = [253, 206, 219, 200],
     density = 1,
