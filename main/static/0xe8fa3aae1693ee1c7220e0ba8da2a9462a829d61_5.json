@@ -1,0 +1,905 @@
+{
+  "merkle_root": "0x0e4d9d114731eb9ed0707f830a613935ace53ddff64ab0a55fc5a290040aa1b4",
+  "total_recipients": 64,
+  "total_claim_amount_wei": "22683999999999993436477",
+  "total_claim_amount_tokens": "22683.999999999993",
+  "distribution_amount": "22684",
+  "claims": [
+    {
+      "address": "0xBcbB098CB6175e4Cf36D74f40AaE5127d0053db8",
+      "weighted_balance": "42494995673181040000000000",
+      "claim_amount_wei": "2520045298605786200000",
+      "claim_amount_tokens": "2520.0452986057862",
+      "proof": [
+        "0xf65ed58282ddd51c5179fb1927096b87d7acd8bc3e03e1d74aaa9c999ffd4069",
+        "0xd55f94550cfd20cb9f6fe3f242a47f4b300cfa9498f770b5f3d2d5d186e40da9",
+        "0x7bbeec099e98e9abe902f74f3ecb8cbce9abe5cbcf451e8aef4c4bd784ca3dbe",
+        "0xd895f3e1e87edadd21ecabad23fa1837e78ebb4c2d055889a50ffef2da9947d2",
+        "0x8b139a0c02416a2ee91d24072b6bdb6abcc5c708b9d363ec8b2e8a17b2877dc5",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0x979be65d38614277dbe64AEF3f7cCC087caB07B3",
+      "weighted_balance": "28028020750763867000000000",
+      "claim_amount_wei": "1662122346485242800000",
+      "claim_amount_tokens": "1662.1223464852428",
+      "proof": [
+        "0x8d210ae6a567bbfdab29d7101dcb06a85eafd7669b59e0daefb03ee78ccb84d1",
+        "0xbe6fd9d1fdd525b691ae1e48c1c696b5c913c1c67d94b22971cc123103887cb4",
+        "0xd78bf009ebd8137f804d10dee5d6eedf201b7d027ee9655badf07cc4b269c8ea",
+        "0x9cba4d13ab8a1e638821a426fd7d3fc3eb5218111030f11e714c02b38f121ffc",
+        "0xfb7ff2262850539b0597cfbd4415e10acdb42c68e8a5a777206a16a68ecbc779",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0xf06Cd0F27b19fb010c4C9791415C71908a332145",
+      "weighted_balance": "21232359753706902000000000",
+      "claim_amount_wei": "1259124928194879400000",
+      "claim_amount_tokens": "1259.1249281948794",
+      "proof": [
+        "0x3e7f487410b8705172ae638656945e06844edd1e6872f09ddc6de698894fa578",
+        "0xb688454c851d8126613c3c5a17634e5a5b0033010aafd75122d6c85d78473100",
+        "0x3148a81be70ecf5639903de3d44f6037f211068fde746fb3202baa16fd58c301",
+        "0x478eaa48f327a6e48df413d54a620c508cdce607421bbbf53b21f1c13ae993cd",
+        "0xfb7ff2262850539b0597cfbd4415e10acdb42c68e8a5a777206a16a68ecbc779",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0xcA9E54992316192a96c2c46e603065E05Ef20d8c",
+      "weighted_balance": "20467158094009380000000000",
+      "claim_amount_wei": "1213746812149486500000",
+      "claim_amount_tokens": "1213.7468121494865",
+      "proof": [
+        "0xe76284de6ff9bd381ed0bbb90900384d7fc4369ad79e86aa877c79810912f451",
+        "0x1ff124fc86033a5853d1df16a56cef44ff0e08dd5ffe9af4272721abc0f74817",
+        "0xadd7addfda9d3d37019a0b4ccb920777d829e6fd2416e29f4c67d47bd041d7cf",
+        "0x80fa8340e18e4f79bc0a69e8bc511acba1d79bbfcc68fb499b451e10b3d252d3",
+        "0x8b139a0c02416a2ee91d24072b6bdb6abcc5c708b9d363ec8b2e8a17b2877dc5",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0x29C0E3f3532c5DA101Ff8dB5B71D6bE09bCC02b8",
+      "weighted_balance": "20010346071901000000000000",
+      "claim_amount_wei": "1186656869665097500000",
+      "claim_amount_tokens": "1186.6568696650975",
+      "proof": [
+        "0x3a4a838314e89303eb0550fbc478e857eeb652757abd55d3c1a37af00e754545",
+        "0x6970e980832a1f5a931a7c9c4a6ea77806106163d15b1b7516a12f2775e8bef5",
+        "0x4958d26a49f1f86f1c9941641eb2cceea89104aab1f800a428f4bef490089abc",
+        "0x91bf503886f840423ee5c9d64381c96a682f12702a0ba4652d4422a5813bf6e1",
+        "0x9f80131c418a4c3966e49ee7aa3faab2be3e3f9fbd5c51ede5c776312aa81a43",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0xBb13c6ABADA00Cad20257F3029abf843f8eD4511",
+      "weighted_balance": "20000000000000000000000000",
+      "claim_amount_wei": "1186043325189092200000",
+      "claim_amount_tokens": "1186.0433251890922",
+      "proof": [
+        "0x75367ad6c26b34ed38d2cc67f3e4daaa31dbf43114b0aa3d58ef45967ea1cb4b",
+        "0xb26ab8fd33c7d4fcbb6646211b21ae43e2da9b78b3a183d6d89155badcce99c7",
+        "0x83708a0e2412213909a9d1e8e9b00f920da084ee4a05298aed33aa2781179b15",
+        "0x9cba4d13ab8a1e638821a426fd7d3fc3eb5218111030f11e714c02b38f121ffc",
+        "0xfb7ff2262850539b0597cfbd4415e10acdb42c68e8a5a777206a16a68ecbc779",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0x39Bcc50768A2E27e2c3ebA8d6d1234798B78095b",
+      "weighted_balance": "15262400736196788000000000",
+      "claim_amount_wei": "905093425976364200000",
+      "claim_amount_tokens": "905.0934259763642",
+      "proof": [
+        "0x9172a2d9be934fa03c2e7e01147f753cbbe69e1fb24f9a766ac347dcec10fcba",
+        "0x175e9af19ef51cbbe0efc9a05c4f210c800681b859430a68dec3f2e21f399ce6",
+        "0xd164bfcf52611ec93ca2a76d0d873598d8cb883e4ca07a70ab611ab5211818a1",
+        "0x1f33b3c42e473ec0469de7ab753320ee7dd74c1b68809cd931310ed1bc0abafc",
+        "0x54b292d18a2addb6f662d3ad378204869d4c1dae5a7d1a7b040390d621e69ecd",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0x8572A06E9C5157864a865f8F443311e1A9d82631",
+      "weighted_balance": "15227800189623348000000000",
+      "claim_amount_wei": "903041538610798200000",
+      "claim_amount_tokens": "903.0415386107982",
+      "proof": [
+        "0xf526eeb34bb7829aa9f1b90f75f5d6db3ba2a155923089dd7de748845fbb7dd5",
+        "0xd1f0da3320b12b67a2d5ca28311cb236793019113b3e377d7c9d6acd03655835",
+        "0x7bbeec099e98e9abe902f74f3ecb8cbce9abe5cbcf451e8aef4c4bd784ca3dbe",
+        "0xd895f3e1e87edadd21ecabad23fa1837e78ebb4c2d055889a50ffef2da9947d2",
+        "0x8b139a0c02416a2ee91d24072b6bdb6abcc5c708b9d363ec8b2e8a17b2877dc5",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0xAA5D1613FE77D8Bd0C618D3d4339fa72fa655C68",
+      "weighted_balance": "14423943964200754000000000",
+      "claim_amount_wei": "855371123082089900000",
+      "claim_amount_tokens": "855.3711230820899",
+      "proof": [
+        "0x28ed3800900e1008770279c570d05655a433a2f31c9be666b32eda36b3dfe20f",
+        "0x0ab23f43ee216a28a564d02f3a90784e75a8a4728325f6b5e6bdf04b17c3cb7c",
+        "0xa64829cdf0e2a8bd538ee89d29bb22022df6a768871b9ac45b02727903011457",
+        "0x5bc023444491e62cf3ec46404f66f5c14c9e79a46c44ac0a2afcf8caca6aadbd",
+        "0x9f80131c418a4c3966e49ee7aa3faab2be3e3f9fbd5c51ede5c776312aa81a43",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0x82963CD55a40f091E109fd5Cd88Fe6E479b0E869",
+      "weighted_balance": "14107051092112357000000000",
+      "claim_amount_wei": "836578689295067900000",
+      "claim_amount_tokens": "836.5786892950679",
+      "proof": [
+        "0x2449f9b2c8698dc6aa0a6e68b541ee80dbe6e0c8415a6cafb548a1ec63872358",
+        "0x77ff49a4e4d458bf1881562d5aaad3f823188ea3100dd3bde817b51fe403a34b",
+        "0xa64829cdf0e2a8bd538ee89d29bb22022df6a768871b9ac45b02727903011457",
+        "0x5bc023444491e62cf3ec46404f66f5c14c9e79a46c44ac0a2afcf8caca6aadbd",
+        "0x9f80131c418a4c3966e49ee7aa3faab2be3e3f9fbd5c51ede5c776312aa81a43",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0x7E2A67509013163B2B4b4d57c001435691052131",
+      "weighted_balance": "13558733200563602000000000",
+      "claim_amount_wei": "804062250527410000000",
+      "claim_amount_tokens": "804.06225052741",
+      "proof": [
+        "0xb289de976e458f2786e8facc8bb1486aa17334af615ec903ee25b14dc3b5cf98",
+        "0x70ae5093e0990ff8f8a7a967308ff12a69d34b78e3ae69557908d9bdc4fe91d1",
+        "0x7b1a15b47166775f19e562d4196377bebc46ef67a583f4b1b4004666fc2dfac6",
+        "0xf7e4fd33e146affac7684fbf9f8bdebd8ae1ec2b0b2686a24a6321ed1cfb96d5",
+        "0x54b292d18a2addb6f662d3ad378204869d4c1dae5a7d1a7b040390d621e69ecd",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0xaB0f37Dff21131c7F67Da250FC0B9B5d5e5E4810",
+      "weighted_balance": "11578368542224163000000000",
+      "claim_amount_wei": "686622336304216600000",
+      "claim_amount_tokens": "686.6223363042166",
+      "proof": [
+        "0xb94d68b2f7fb4430eddf03462001adb45e798b151e2820e0da849e14bafc87ce",
+        "0x70ae5093e0990ff8f8a7a967308ff12a69d34b78e3ae69557908d9bdc4fe91d1",
+        "0x7b1a15b47166775f19e562d4196377bebc46ef67a583f4b1b4004666fc2dfac6",
+        "0xf7e4fd33e146affac7684fbf9f8bdebd8ae1ec2b0b2686a24a6321ed1cfb96d5",
+        "0x54b292d18a2addb6f662d3ad378204869d4c1dae5a7d1a7b040390d621e69ecd",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0x6A1B7583298ddBEeEd58d14E7f7BA3Bda6177B5c",
+      "weighted_balance": "11304857895793447000000000",
+      "claim_amount_wei": "670402562475851300000",
+      "claim_amount_tokens": "670.4025624758513",
+      "proof": [
+        "0x9cc112dc3ee91a80874cec898dc0ac81b1ee55dca10bc3ff86b1265ea00f7c84",
+        "0x8d96465b18422d242a4df8d7081d523e2f5e58d6e2bfd932f1777da9fd03c086",
+        "0xd164bfcf52611ec93ca2a76d0d873598d8cb883e4ca07a70ab611ab5211818a1",
+        "0x1f33b3c42e473ec0469de7ab753320ee7dd74c1b68809cd931310ed1bc0abafc",
+        "0x54b292d18a2addb6f662d3ad378204869d4c1dae5a7d1a7b040390d621e69ecd",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0xbAF964788cca17Ab651be519453144489f4eDd38",
+      "weighted_balance": "11231221252568675000000000",
+      "claim_amount_wei": "666035750016547600000",
+      "claim_amount_tokens": "666.0357500165476",
+      "proof": [
+        "0x99fbb670486f6c6a817b88e338b5015f08911d1c3a29b8d6851d9bccfaefbc41",
+        "0x175e9af19ef51cbbe0efc9a05c4f210c800681b859430a68dec3f2e21f399ce6",
+        "0xd164bfcf52611ec93ca2a76d0d873598d8cb883e4ca07a70ab611ab5211818a1",
+        "0x1f33b3c42e473ec0469de7ab753320ee7dd74c1b68809cd931310ed1bc0abafc",
+        "0x54b292d18a2addb6f662d3ad378204869d4c1dae5a7d1a7b040390d621e69ecd",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0xE0e235a2192887785D3fAe7D894f82ba953664D4",
+      "weighted_balance": "10893838038220520000000000",
+      "claim_amount_wei": "646028194546124000000",
+      "claim_amount_tokens": "646.028194546124",
+      "proof": [
+        "0xc58d3f532de40303f4ab162d09139d1b4ceaf5230454ccfc1e88b0ff2befd6bb",
+        "0xe320621cc9c8a9e2df051e940748bed3fecd165b35ccb440f97afff99ef75ca9",
+        "0x489b355c5a1457b28f84ba81eef65ad3c81be43586b1ee6775b51d18905180f7",
+        "0xf7e4fd33e146affac7684fbf9f8bdebd8ae1ec2b0b2686a24a6321ed1cfb96d5",
+        "0x54b292d18a2addb6f662d3ad378204869d4c1dae5a7d1a7b040390d621e69ecd",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0x3FdE6C5e71BbBDD2B17dcAea0F9af92446dA9706",
+      "weighted_balance": "10251084623706356000000000",
+      "claim_amount_wei": "607911524694773000000",
+      "claim_amount_tokens": "607.911524694773",
+      "proof": [
+        "0x2ffed7e543125a593a1fa05e0d109ad435e87f6879fedb5c90a37d8fe11cbc34",
+        "0xf1a1c598d64897f822bd14295d94287ce77aba66616affa5ae41c6c71e05dcc1",
+        "0x3f0f967fd192debe0a29624d507a717de4ff436cbeb37096f8984d7967d76956",
+        "0x91bf503886f840423ee5c9d64381c96a682f12702a0ba4652d4422a5813bf6e1",
+        "0x9f80131c418a4c3966e49ee7aa3faab2be3e3f9fbd5c51ede5c776312aa81a43",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0xFE6B1C7406ddf497B58B165190cfd7dbE7649835",
+      "weighted_balance": "10000000000000000000000000",
+      "claim_amount_wei": "593021662594546100000",
+      "claim_amount_tokens": "593.0216625945461",
+      "proof": [
+        "0x5085d9f07a9b7ca5da161e5f140e784dfbe3ab452c7da73f0ac9f8e894eb7f68",
+        "0xe88a81cc1d7b227f73555153491dc22019e06ccbc58fa3d8b1fe0daa2d3f7e99",
+        "0x3148a81be70ecf5639903de3d44f6037f211068fde746fb3202baa16fd58c301",
+        "0x478eaa48f327a6e48df413d54a620c508cdce607421bbbf53b21f1c13ae993cd",
+        "0xfb7ff2262850539b0597cfbd4415e10acdb42c68e8a5a777206a16a68ecbc779",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0x5455Ac2700C753ff1e546cAe49B52076ef9D3c58",
+      "weighted_balance": "8590431601056542000000000",
+      "claim_amount_wei": "509431203046327900000",
+      "claim_amount_tokens": "509.4312030463279",
+      "proof": [
+        "0xa612e30e585770768ce5111d55fd30ee8145f3e4cbbed0066652e9a701958282",
+        "0xc7bd8552dc332270b0f9d295b7a5ad454ab57b7da2b0312dcaf464c56d23ef80",
+        "0x4a9345bbd90875525c4d6e3c41eda40ecbdf98d0de8eea63bed7638a353c6451",
+        "0x1f33b3c42e473ec0469de7ab753320ee7dd74c1b68809cd931310ed1bc0abafc",
+        "0x54b292d18a2addb6f662d3ad378204869d4c1dae5a7d1a7b040390d621e69ecd",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0x15b5C1ea13DDC287a5654Efa8B23e816E3a52d84",
+      "weighted_balance": "7854101470387347000000000",
+      "claim_amount_wei": "465765231215537500000",
+      "claim_amount_tokens": "465.7652312155375",
+      "proof": [
+        "0xa19d37576dad0ad522d774b72f4169f173505061986e9f5bac62bcf19d080f55",
+        "0x61809e3dd7145df89ba27c32357c261f404af09774389cf7b34073b301cf2494",
+        "0x4a9345bbd90875525c4d6e3c41eda40ecbdf98d0de8eea63bed7638a353c6451",
+        "0x1f33b3c42e473ec0469de7ab753320ee7dd74c1b68809cd931310ed1bc0abafc",
+        "0x54b292d18a2addb6f662d3ad378204869d4c1dae5a7d1a7b040390d621e69ecd",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0x7344B542c10e11f6a08Fc4ECdAFDf704F6E2B3A5",
+      "weighted_balance": "6163615677880933000000000",
+      "claim_amount_wei": "365515761689076040000",
+      "claim_amount_tokens": "365.51576168907604",
+      "proof": [
+        "0x038fbff1287db0cf9e52d986488ea455bac5c307a0e2014d377dbed9b0354809",
+        "0x5a7666bf60d7769601786605f5d159e452a355a39231127939dbeedbc7f8a456",
+        "0x633fa48e5aedddbb0c24c7b0b3458fac956c36b6270a711ee62e1ec6f67eac64",
+        "0x5bc023444491e62cf3ec46404f66f5c14c9e79a46c44ac0a2afcf8caca6aadbd",
+        "0x9f80131c418a4c3966e49ee7aa3faab2be3e3f9fbd5c51ede5c776312aa81a43",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0x1Bd19dFE034650aD50Cd3c4A8A6Cc2857080fe97",
+      "weighted_balance": "6048386394643948000000000",
+      "claim_amount_wei": "358682415576598600000",
+      "claim_amount_tokens": "358.6824155765986",
+      "proof": [
+        "0x62f3f953553fbf722d41d4795d82e2d900e773918ea58763b2e23985701856fc",
+        "0x3f8be71eede083bd6c6d8545d03ba11db27d180c94988927755e30612f0c123f",
+        "0x83708a0e2412213909a9d1e8e9b00f920da084ee4a05298aed33aa2781179b15",
+        "0x9cba4d13ab8a1e638821a426fd7d3fc3eb5218111030f11e714c02b38f121ffc",
+        "0xfb7ff2262850539b0597cfbd4415e10acdb42c68e8a5a777206a16a68ecbc779",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0x45d261bF3DCA49256Bc5d72640B69624242e7AB4",
+      "weighted_balance": "5881201702178221000000000",
+      "claim_amount_wei": "348768001147960300000",
+      "claim_amount_tokens": "348.7680011479603",
+      "proof": [
+        "0xf34b833cec28df82b1492d9e2f3e012c09e9d7a16e740a62fb25bec629b4f4b1",
+        "0xb6b96967aff29364df8ef169ec334ebde0c480b18b2978aed41ed25c341a88e8",
+        "0xadd7addfda9d3d37019a0b4ccb920777d829e6fd2416e29f4c67d47bd041d7cf",
+        "0x80fa8340e18e4f79bc0a69e8bc511acba1d79bbfcc68fb499b451e10b3d252d3",
+        "0x8b139a0c02416a2ee91d24072b6bdb6abcc5c708b9d363ec8b2e8a17b2877dc5",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0xCb09D1FF0bC3089853C13d42cdEca79096a68ac6",
+      "weighted_balance": "5746667161230065000000000",
+      "claim_amount_wei": "340789811433013370000",
+      "claim_amount_tokens": "340.78981143301337",
+      "proof": [
+        "0xfdb5a20cfcce50d54ddd3dd3f43efacb9c62736314fafc6fc6d518144a7bcaa4",
+        "0xd9fb0bab42599b6c340efe8c91a85af7e1d15229e2d35efa51dca5661a30e4c8",
+        "0x279b5f6a6351c53517617a88e128f947c183f7b08aaea0ac105ab5c4bd240751",
+        "0xd895f3e1e87edadd21ecabad23fa1837e78ebb4c2d055889a50ffef2da9947d2",
+        "0x8b139a0c02416a2ee91d24072b6bdb6abcc5c708b9d363ec8b2e8a17b2877dc5",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0x58ebdC37F8b723f432AE219d02D90cA3D4B43136",
+      "weighted_balance": "5475981320116988000000000",
+      "claim_amount_wei": "324737554679245360000",
+      "claim_amount_tokens": "324.73755467924536",
+      "proof": [
+        "0xffdeba714f619a1e6ff6dde8e75b340d38779dfe5b2cc0459c3e44577237e54a",
+        "0xd9fb0bab42599b6c340efe8c91a85af7e1d15229e2d35efa51dca5661a30e4c8",
+        "0x279b5f6a6351c53517617a88e128f947c183f7b08aaea0ac105ab5c4bd240751",
+        "0xd895f3e1e87edadd21ecabad23fa1837e78ebb4c2d055889a50ffef2da9947d2",
+        "0x8b139a0c02416a2ee91d24072b6bdb6abcc5c708b9d363ec8b2e8a17b2877dc5",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0xdB7A5AC46210a608Ae873ecd03d0fb7b9E076D19",
+      "weighted_balance": "5229289593511155000000000",
+      "claim_amount_wei": "310108200893234300000",
+      "claim_amount_tokens": "310.1082008932343",
+      "proof": [
+        "0xd90e915f8b39cf8831ca492583a002ea2c8bc844947c269068a88d07a4422ec0",
+        "0x36f9ab3d3f4202faf2d43a79684acad124d518099143dc18d722884b7c22b019",
+        "0x1a6e83743f0ff79ab54942e678ccd7f449ce0f9ff06b07b97bbc7e584074afa8",
+        "0x80fa8340e18e4f79bc0a69e8bc511acba1d79bbfcc68fb499b451e10b3d252d3",
+        "0x8b139a0c02416a2ee91d24072b6bdb6abcc5c708b9d363ec8b2e8a17b2877dc5",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0x8a00D46d39E694dD82Ad50090722CB734454B64b",
+      "weighted_balance": "4495645350080898000000000",
+      "claim_amount_wei": "266601507994041400000",
+      "claim_amount_tokens": "266.6015079940414",
+      "proof": [
+        "0x5a2aa2c622edb1097822aa76d9b42bb1f8d6d80aa7bee48fb78dc7484d61dc4a",
+        "0x660acc222e35199569b536d7a8c6045b71fce1e43e9f56eb581c42103eaab162",
+        "0x3b41a7a604badb7e5a0ca2afaeb7636f1c7dc059f4e379b119049235cee13765",
+        "0x478eaa48f327a6e48df413d54a620c508cdce607421bbbf53b21f1c13ae993cd",
+        "0xfb7ff2262850539b0597cfbd4415e10acdb42c68e8a5a777206a16a68ecbc779",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0x2AFb45b8eB34Bd9A9134A5723206e35CDc1f5eFB",
+      "weighted_balance": "3811682223884383000000000",
+      "claim_amount_wei": "226041012968999330000",
+      "claim_amount_tokens": "226.04101296899933",
+      "proof": [
+        "0xdc2f76f99cb0d1e5a7bde6d3a69025fe0e92252c6b6a051dbbb17e0c904c84d4",
+        "0x27859457cb08e79ca2634170aa1384bf2f3bd4e836df2ff414bf0c7da34e985b",
+        "0x1a6e83743f0ff79ab54942e678ccd7f449ce0f9ff06b07b97bbc7e584074afa8",
+        "0x80fa8340e18e4f79bc0a69e8bc511acba1d79bbfcc68fb499b451e10b3d252d3",
+        "0x8b139a0c02416a2ee91d24072b6bdb6abcc5c708b9d363ec8b2e8a17b2877dc5",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0x01cCF2d5dDb6fdB7960FD6B366759B435A192411",
+      "weighted_balance": "3806814307991153600000000",
+      "claim_amount_wei": "225752335011362020000",
+      "claim_amount_tokens": "225.75233501136202",
+      "proof": [
+        "0x56eb39e3ec391071b492549a366b8efb22d113886c93d72dd441b0e6c4dad45f",
+        "0x0b93d3aff01f2f1f198752daf70f54b7474a62328cebbc140bf4cd3811fa18ee",
+        "0x3b41a7a604badb7e5a0ca2afaeb7636f1c7dc059f4e379b119049235cee13765",
+        "0x478eaa48f327a6e48df413d54a620c508cdce607421bbbf53b21f1c13ae993cd",
+        "0xfb7ff2262850539b0597cfbd4415e10acdb42c68e8a5a777206a16a68ecbc779",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0xb0b83617C142f82e38F6d529924F78FF9f3B9760",
+      "weighted_balance": "3256369755537464000000000",
+      "claim_amount_wei": "193109780645142220000",
+      "claim_amount_tokens": "193.10978064514222",
+      "proof": [
+        "0x79b504dec2350c8ec04048e46010c867f5c86e0e15766c1e747d290f65a43261",
+        "0x8af7a49e17992bbd5f1881423a1dcfddba190a3efef6c58ac64e59669c32ef28",
+        "0xd78bf009ebd8137f804d10dee5d6eedf201b7d027ee9655badf07cc4b269c8ea",
+        "0x9cba4d13ab8a1e638821a426fd7d3fc3eb5218111030f11e714c02b38f121ffc",
+        "0xfb7ff2262850539b0597cfbd4415e10acdb42c68e8a5a777206a16a68ecbc779",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0x336df9E1AD7a58ba5fbd1084c0B7c8F296eB9d0b",
+      "weighted_balance": "2595686892602898000000000",
+      "claim_amount_wei": "153929855662624160000",
+      "claim_amount_tokens": "153.92985566262416",
+      "proof": [
+        "0x7cb01537250995a9b0140eed300be72238a141c1764cdf1ccbdbe3e5670a2369",
+        "0x8af7a49e17992bbd5f1881423a1dcfddba190a3efef6c58ac64e59669c32ef28",
+        "0xd78bf009ebd8137f804d10dee5d6eedf201b7d027ee9655badf07cc4b269c8ea",
+        "0x9cba4d13ab8a1e638821a426fd7d3fc3eb5218111030f11e714c02b38f121ffc",
+        "0xfb7ff2262850539b0597cfbd4415e10acdb42c68e8a5a777206a16a68ecbc779",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0x545834591203c5ae92F9446Abb82Ed2A68Ad26CD",
+      "weighted_balance": "2470988765452345400000000",
+      "claim_amount_wei": "146534986594099480000",
+      "claim_amount_tokens": "146.53498659409948",
+      "proof": [
+        "0x5645af5c1d0668e623dda6f6227e2d87bae9891708dc3a3d4f495bc632037ff0",
+        "0x0b93d3aff01f2f1f198752daf70f54b7474a62328cebbc140bf4cd3811fa18ee",
+        "0x3b41a7a604badb7e5a0ca2afaeb7636f1c7dc059f4e379b119049235cee13765",
+        "0x478eaa48f327a6e48df413d54a620c508cdce607421bbbf53b21f1c13ae993cd",
+        "0xfb7ff2262850539b0597cfbd4415e10acdb42c68e8a5a777206a16a68ecbc779",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0x1fF2C9755be438A5091DceD335f537a5744d8935",
+      "weighted_balance": "2397219243650158400000000",
+      "claim_amount_wei": "142160294147305700000",
+      "claim_amount_tokens": "142.1602941473057",
+      "proof": [
+        "0xfc64dec89a95ca5cb087307502e9ab0c3bf7fc1ffc641f3a20dfb4051898c55a",
+        "0x9743d5b4e43595a53054bd4e0860c94d86d08610660ab4789432474bd7bde3bd",
+        "0x279b5f6a6351c53517617a88e128f947c183f7b08aaea0ac105ab5c4bd240751",
+        "0xd895f3e1e87edadd21ecabad23fa1837e78ebb4c2d055889a50ffef2da9947d2",
+        "0x8b139a0c02416a2ee91d24072b6bdb6abcc5c708b9d363ec8b2e8a17b2877dc5",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0xC2ae424d3d8B1F62Bba3276D162056dd7AE218C4",
+      "weighted_balance": "2127974409118151800000000",
+      "claim_amount_wei": "126193492205389280000",
+      "claim_amount_tokens": "126.19349220538928",
+      "proof": [
+        "0x3812dbd2723a9420d7f46e32961fe27249a1ce35d14d91cf76e07fc9e04f5e5c",
+        "0x1393d3053026a5fdd0adc8cdda74d47666c719a26b256cafb533007ffc3760cd",
+        "0x3f0f967fd192debe0a29624d507a717de4ff436cbeb37096f8984d7967d76956",
+        "0x91bf503886f840423ee5c9d64381c96a682f12702a0ba4652d4422a5813bf6e1",
+        "0x9f80131c418a4c3966e49ee7aa3faab2be3e3f9fbd5c51ede5c776312aa81a43",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0xa16bE418c9f20783109b03ED27d53b6ff341521F",
+      "weighted_balance": "1871789953391299600000000",
+      "claim_amount_wei": "111001199018787630000",
+      "claim_amount_tokens": "111.00119901878763",
+      "proof": [
+        "0x3aed24107893a3ce38070e325520f3c1a38026bd342e6f690789b569e1702443",
+        "0x79f229030b8862b45f44c41fafeb42253c960250a3fff8d7a373e4df5aad977b",
+        "0x4958d26a49f1f86f1c9941641eb2cceea89104aab1f800a428f4bef490089abc",
+        "0x91bf503886f840423ee5c9d64381c96a682f12702a0ba4652d4422a5813bf6e1",
+        "0x9f80131c418a4c3966e49ee7aa3faab2be3e3f9fbd5c51ede5c776312aa81a43",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0x10195DEeA3f38129AA8D8aDA2dF59782DeA2b424",
+      "weighted_balance": "1760594329316614000000000",
+      "claim_amount_wei": "104407057632586830000",
+      "claim_amount_tokens": "104.40705763258683",
+      "proof": [
+        "0xad6b288e8bd1c93629d249cff8f585124ccadffdf2452a554a6cb09c5eb9c6b8",
+        "0xf3b3b30ce5256e177873e9cf3e0dc5ea62b45bd809af0f5c0409f0468893c44e",
+        "0x7b1a15b47166775f19e562d4196377bebc46ef67a583f4b1b4004666fc2dfac6",
+        "0xf7e4fd33e146affac7684fbf9f8bdebd8ae1ec2b0b2686a24a6321ed1cfb96d5",
+        "0x54b292d18a2addb6f662d3ad378204869d4c1dae5a7d1a7b040390d621e69ecd",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0x3A21843327CBFCf058219A5a7a18154d029Ee9C5",
+      "weighted_balance": "1686100487903854000000000",
+      "claim_amount_wei": "99989411463821880000",
+      "claim_amount_tokens": "99.98941146382188",
+      "proof": [
+        "0x72ae442ae40755aa87f6cb754107055d5d000a7b09cb4a882d174af7960e3e07",
+        "0xb26ab8fd33c7d4fcbb6646211b21ae43e2da9b78b3a183d6d89155badcce99c7",
+        "0x83708a0e2412213909a9d1e8e9b00f920da084ee4a05298aed33aa2781179b15",
+        "0x9cba4d13ab8a1e638821a426fd7d3fc3eb5218111030f11e714c02b38f121ffc",
+        "0xfb7ff2262850539b0597cfbd4415e10acdb42c68e8a5a777206a16a68ecbc779",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0xe1AD39303d3086fB56d9a26444512e619df5cF82",
+      "weighted_balance": "1604152609433760200000000",
+      "claim_amount_wei": "95129724750178800000",
+      "claim_amount_tokens": "95.1297247501788",
+      "proof": [
+        "0x50e54a78db0b5171b4a08b342f96577deff29e80cf883562b0246a1c8b28586e",
+        "0xe88a81cc1d7b227f73555153491dc22019e06ccbc58fa3d8b1fe0daa2d3f7e99",
+        "0x3148a81be70ecf5639903de3d44f6037f211068fde746fb3202baa16fd58c301",
+        "0x478eaa48f327a6e48df413d54a620c508cdce607421bbbf53b21f1c13ae993cd",
+        "0xfb7ff2262850539b0597cfbd4415e10acdb42c68e8a5a777206a16a68ecbc779",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0x87689964299f23bBa309997f691A7f93Eb4896AF",
+      "weighted_balance": "1592096313036537000000000",
+      "claim_amount_wei": "94414760256757420000",
+      "claim_amount_tokens": "94.41476025675742",
+      "proof": [
+        "0x0fd23bc0dc13c686fa0c1d1128f6457b92013bc3b151f3f7112402e5815f6e76",
+        "0x95851ff87dd12516e96dad760cabcd11d4e7c8ad277188b54629f760cf3d4e93",
+        "0x633fa48e5aedddbb0c24c7b0b3458fac956c36b6270a711ee62e1ec6f67eac64",
+        "0x5bc023444491e62cf3ec46404f66f5c14c9e79a46c44ac0a2afcf8caca6aadbd",
+        "0x9f80131c418a4c3966e49ee7aa3faab2be3e3f9fbd5c51ede5c776312aa81a43",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0xFf43DBf6F09855255974630426391c1d9A1E77A8",
+      "weighted_balance": "1419996578849582000000000",
+      "claim_amount_wei": "84208873206794650000",
+      "claim_amount_tokens": "84.20887320679465",
+      "proof": [
+        "0x0ad8eb1ac8ccb992a83a92bd558e8b2a277f2d7c8d7ec63ad937e434c45f7279",
+        "0x5a7666bf60d7769601786605f5d159e452a355a39231127939dbeedbc7f8a456",
+        "0x633fa48e5aedddbb0c24c7b0b3458fac956c36b6270a711ee62e1ec6f67eac64",
+        "0x5bc023444491e62cf3ec46404f66f5c14c9e79a46c44ac0a2afcf8caca6aadbd",
+        "0x9f80131c418a4c3966e49ee7aa3faab2be3e3f9fbd5c51ede5c776312aa81a43",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0x91222Dd3a7F8b50a4be1642ED77875090aA1b658",
+      "weighted_balance": "843047146032480200000000",
+      "claim_amount_wei": "49994522018576840000",
+      "claim_amount_tokens": "49.99452201857684",
+      "proof": [
+        "0x2ddb7d8a29c0f157842e091521f3284f958df055353449978f45973c8b43268f",
+        "0x0ab23f43ee216a28a564d02f3a90784e75a8a4728325f6b5e6bdf04b17c3cb7c",
+        "0xa64829cdf0e2a8bd538ee89d29bb22022df6a768871b9ac45b02727903011457",
+        "0x5bc023444491e62cf3ec46404f66f5c14c9e79a46c44ac0a2afcf8caca6aadbd",
+        "0x9f80131c418a4c3966e49ee7aa3faab2be3e3f9fbd5c51ede5c776312aa81a43",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0x26EeC99AEf773e8801f3dacC45412c40543B9f47",
+      "weighted_balance": "656796043338305000000000",
+      "claim_amount_wei": "38949428160600114000",
+      "claim_amount_tokens": "38.949428160600114",
+      "proof": [
+        "0x44687f6226d242698343ae3ae241836761a7f50eef3c7c538c36dacabeae6e2d",
+        "0xb688454c851d8126613c3c5a17634e5a5b0033010aafd75122d6c85d78473100",
+        "0x3148a81be70ecf5639903de3d44f6037f211068fde746fb3202baa16fd58c301",
+        "0x478eaa48f327a6e48df413d54a620c508cdce607421bbbf53b21f1c13ae993cd",
+        "0xfb7ff2262850539b0597cfbd4415e10acdb42c68e8a5a777206a16a68ecbc779",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0x704dde503000Bd567bD41522018990eb99CA13Ae",
+      "weighted_balance": "556703752051203300000000",
+      "claim_amount_wei": "33013738461402630000",
+      "claim_amount_tokens": "33.01373846140263",
+      "proof": [
+        "0x0ed5ede76cc088ae036c36858070d14d89dfe357af66477091651c13419b3523",
+        "0x95851ff87dd12516e96dad760cabcd11d4e7c8ad277188b54629f760cf3d4e93",
+        "0x633fa48e5aedddbb0c24c7b0b3458fac956c36b6270a711ee62e1ec6f67eac64",
+        "0x5bc023444491e62cf3ec46404f66f5c14c9e79a46c44ac0a2afcf8caca6aadbd",
+        "0x9f80131c418a4c3966e49ee7aa3faab2be3e3f9fbd5c51ede5c776312aa81a43",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0xF5846eb5E7993059C3f6226ED860D82cBB049980",
+      "weighted_balance": "549988919733564800000000",
+      "claim_amount_wei": "32615534358897676000",
+      "claim_amount_tokens": "32.615534358897676",
+      "proof": [
+        "0xe7425df7eede7cbfa48b8893778d7bae447c81ee4463635ca854077d19ed3fa5",
+        "0x27859457cb08e79ca2634170aa1384bf2f3bd4e836df2ff414bf0c7da34e985b",
+        "0x1a6e83743f0ff79ab54942e678ccd7f449ce0f9ff06b07b97bbc7e584074afa8",
+        "0x80fa8340e18e4f79bc0a69e8bc511acba1d79bbfcc68fb499b451e10b3d252d3",
+        "0x8b139a0c02416a2ee91d24072b6bdb6abcc5c708b9d363ec8b2e8a17b2877dc5",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0xC01afDaE5647Bd4ceA0d76992a1bdb27dF12eE00",
+      "weighted_balance": "468143781310237360000000",
+      "claim_amount_wei": "27761940352589434000",
+      "claim_amount_tokens": "27.761940352589434",
+      "proof": [
+        "0xeda8ad008da632844cccfef3b75871f0113e392bc772826a536a6370646b6bc9",
+        "0x1ff124fc86033a5853d1df16a56cef44ff0e08dd5ffe9af4272721abc0f74817",
+        "0xadd7addfda9d3d37019a0b4ccb920777d829e6fd2416e29f4c67d47bd041d7cf",
+        "0x80fa8340e18e4f79bc0a69e8bc511acba1d79bbfcc68fb499b451e10b3d252d3",
+        "0x8b139a0c02416a2ee91d24072b6bdb6abcc5c708b9d363ec8b2e8a17b2877dc5",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0xEbE3Af59B7a865067b3616dD1A6D5daC619c6044",
+      "weighted_balance": "465868687471156400000000",
+      "claim_amount_wei": "27627022359488407000",
+      "claim_amount_tokens": "27.627022359488407",
+      "proof": [
+        "0xc9d0421ed9895da6cb5f8387b6b74209b57d438c6de600a9d2ab23ae0e2a7080",
+        "0xe3f22a0ff9095ae954b11a36182b58938c13125d41d1b4868e6b6d73291bf3e9",
+        "0x489b355c5a1457b28f84ba81eef65ad3c81be43586b1ee6775b51d18905180f7",
+        "0xf7e4fd33e146affac7684fbf9f8bdebd8ae1ec2b0b2686a24a6321ed1cfb96d5",
+        "0x54b292d18a2addb6f662d3ad378204869d4c1dae5a7d1a7b040390d621e69ecd",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0x2962Fa2cae20521b204B509f5114b7d3Fa3C655D",
+      "weighted_balance": "378837143182864000000000",
+      "claim_amount_wei": "22465863250287010000",
+      "claim_amount_tokens": "22.46586325028701",
+      "proof": [
+        "0xf79199de3cd8cd07ef941566590c811bdd2df716a764004b40cef0f6a385ddae",
+        "0xd55f94550cfd20cb9f6fe3f242a47f4b300cfa9498f770b5f3d2d5d186e40da9",
+        "0x7bbeec099e98e9abe902f74f3ecb8cbce9abe5cbcf451e8aef4c4bd784ca3dbe",
+        "0xd895f3e1e87edadd21ecabad23fa1837e78ebb4c2d055889a50ffef2da9947d2",
+        "0x8b139a0c02416a2ee91d24072b6bdb6abcc5c708b9d363ec8b2e8a17b2877dc5",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0xD0d2BD32FA6A986c7B9ecF79a30F192070964f24",
+      "weighted_balance": "364001074412299300000000",
+      "claim_amount_wei": "21586052233418282000",
+      "claim_amount_tokens": "21.586052233418282",
+      "proof": [
+        "0xaee1d438ddc8318ccbf3eb7b285ec238b27ada6d61c3385ac8a7d659890ced13",
+        "0xf3b3b30ce5256e177873e9cf3e0dc5ea62b45bd809af0f5c0409f0468893c44e",
+        "0x7b1a15b47166775f19e562d4196377bebc46ef67a583f4b1b4004666fc2dfac6",
+        "0xf7e4fd33e146affac7684fbf9f8bdebd8ae1ec2b0b2686a24a6321ed1cfb96d5",
+        "0x54b292d18a2addb6f662d3ad378204869d4c1dae5a7d1a7b040390d621e69ecd",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0xa03949910606D49b1ff4fee4bFE059018094196b",
+      "weighted_balance": "342283000488581540000000",
+      "claim_amount_wei": "20298123402758833000",
+      "claim_amount_tokens": "20.298123402758833",
+      "proof": [
+        "0x5e58cf717fdb3c2e841155a73edfc9fe5934244178778cfe3b5f7f0f7bd2609a",
+        "0x3f8be71eede083bd6c6d8545d03ba11db27d180c94988927755e30612f0c123f",
+        "0x83708a0e2412213909a9d1e8e9b00f920da084ee4a05298aed33aa2781179b15",
+        "0x9cba4d13ab8a1e638821a426fd7d3fc3eb5218111030f11e714c02b38f121ffc",
+        "0xfb7ff2262850539b0597cfbd4415e10acdb42c68e8a5a777206a16a68ecbc779",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0x27b322D767162a315318F9b6978fb2A7C485c7F9",
+      "weighted_balance": "313572658513459500000000",
+      "claim_amount_wei": "18595537929584356000",
+      "claim_amount_tokens": "18.595537929584356",
+      "proof": [
+        "0x3c7fdf6f907a155402385b777642d00d52d4a56da388b0b97f884537ce31f074",
+        "0x79f229030b8862b45f44c41fafeb42253c960250a3fff8d7a373e4df5aad977b",
+        "0x4958d26a49f1f86f1c9941641eb2cceea89104aab1f800a428f4bef490089abc",
+        "0x91bf503886f840423ee5c9d64381c96a682f12702a0ba4652d4422a5813bf6e1",
+        "0x9f80131c418a4c3966e49ee7aa3faab2be3e3f9fbd5c51ede5c776312aa81a43",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0xe83a584FE88392Ff96fDf6cCD9C2E86884aDF2Cd",
+      "weighted_balance": "313045453452804900000000",
+      "claim_amount_wei": "18564273527424580000",
+      "claim_amount_tokens": "18.56427352742458",
+      "proof": [
+        "0xfa9374067129a99ed512611ec655329a9c1678870e11e2cb9317fabb37d06773",
+        "0x9743d5b4e43595a53054bd4e0860c94d86d08610660ab4789432474bd7bde3bd",
+        "0x279b5f6a6351c53517617a88e128f947c183f7b08aaea0ac105ab5c4bd240751",
+        "0xd895f3e1e87edadd21ecabad23fa1837e78ebb4c2d055889a50ffef2da9947d2",
+        "0x8b139a0c02416a2ee91d24072b6bdb6abcc5c708b9d363ec8b2e8a17b2877dc5",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0x65A58e1DFa6790f76f54e8EEA6EC04beB108cA13",
+      "weighted_balance": "265675157140599100000000",
+      "claim_amount_wei": "15755112339758524000",
+      "claim_amount_tokens": "15.755112339758524",
+      "proof": [
+        "0x39e0d8b99ee1bb94a8cb12fa9938715d861b0334d557fd30229962256e238729",
+        "0x6970e980832a1f5a931a7c9c4a6ea77806106163d15b1b7516a12f2775e8bef5",
+        "0x4958d26a49f1f86f1c9941641eb2cceea89104aab1f800a428f4bef490089abc",
+        "0x91bf503886f840423ee5c9d64381c96a682f12702a0ba4652d4422a5813bf6e1",
+        "0x9f80131c418a4c3966e49ee7aa3faab2be3e3f9fbd5c51ede5c776312aa81a43",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0xb8a8c1D65100bD4bbeA40f10698F25005d09735F",
+      "weighted_balance": "264674383431292840000000",
+      "claim_amount_wei": "15695764290861161000",
+      "claim_amount_tokens": "15.695764290861161",
+      "proof": [
+        "0xce755bc2fae86758c615c4b0305d9e49fd4c92f18e43a98cacc515572c7b2eb0",
+        "0xe3f22a0ff9095ae954b11a36182b58938c13125d41d1b4868e6b6d73291bf3e9",
+        "0x489b355c5a1457b28f84ba81eef65ad3c81be43586b1ee6775b51d18905180f7",
+        "0xf7e4fd33e146affac7684fbf9f8bdebd8ae1ec2b0b2686a24a6321ed1cfb96d5",
+        "0x54b292d18a2addb6f662d3ad378204869d4c1dae5a7d1a7b040390d621e69ecd",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0x84FDEEeAC6A8B13b3A53bB26Fb7C251cfa07cccf",
+      "weighted_balance": "203358088033522250000000",
+      "claim_amount_wei": "12059575146768726000",
+      "claim_amount_tokens": "12.059575146768726",
+      "proof": [
+        "0xa510bcfa81348fd82d495e2499df8322a8d9d28776c37df0e882d5915f4dd468",
+        "0x61809e3dd7145df89ba27c32357c261f404af09774389cf7b34073b301cf2494",
+        "0x4a9345bbd90875525c4d6e3c41eda40ecbdf98d0de8eea63bed7638a353c6451",
+        "0x1f33b3c42e473ec0469de7ab753320ee7dd74c1b68809cd931310ed1bc0abafc",
+        "0x54b292d18a2addb6f662d3ad378204869d4c1dae5a7d1a7b040390d621e69ecd",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0xe4c0717Ae7657D2e624CADd28D3bd521c8Ec4A56",
+      "weighted_balance": "133880331808928140000000",
+      "claim_amount_wei": "7939393695803996000",
+      "claim_amount_tokens": "7.939393695803996",
+      "proof": [
+        "0x57490121edf7b1e6ffd1cb3517e6aa497b2e8e79ed9f1a722ed1db6278d0ae26",
+        "0x660acc222e35199569b536d7a8c6045b71fce1e43e9f56eb581c42103eaab162",
+        "0x3b41a7a604badb7e5a0ca2afaeb7636f1c7dc059f4e379b119049235cee13765",
+        "0x478eaa48f327a6e48df413d54a620c508cdce607421bbbf53b21f1c13ae993cd",
+        "0xfb7ff2262850539b0597cfbd4415e10acdb42c68e8a5a777206a16a68ecbc779",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0xdE4cFa88DBF0B7be1E250d3Ee61f4783Ec0A470e",
+      "weighted_balance": "122725174355755340000000",
+      "claim_amount_wei": "7277868693865559500",
+      "claim_amount_tokens": "7.2778686938655595",
+      "proof": [
+        "0x9fe5e1ab9724ab6ec7ebdc79e36422eefa3d6e5804ef04c3440630cd4ce9a89e",
+        "0x8d96465b18422d242a4df8d7081d523e2f5e58d6e2bfd932f1777da9fd03c086",
+        "0xd164bfcf52611ec93ca2a76d0d873598d8cb883e4ca07a70ab611ab5211818a1",
+        "0x1f33b3c42e473ec0469de7ab753320ee7dd74c1b68809cd931310ed1bc0abafc",
+        "0x54b292d18a2addb6f662d3ad378204869d4c1dae5a7d1a7b040390d621e69ecd",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0xe36E94D7ac69e0459e08b993b13cBF5542f34933",
+      "weighted_balance": "118241495071157700000000",
+      "claim_amount_wei": "7011976799476255000",
+      "claim_amount_tokens": "7.011976799476255",
+      "proof": [
+        "0xf51a7aa680cfa6203169dbe7f5d940188abef67d58883d26f3c865fe5d17683b",
+        "0xb6b96967aff29364df8ef169ec334ebde0c480b18b2978aed41ed25c341a88e8",
+        "0xadd7addfda9d3d37019a0b4ccb920777d829e6fd2416e29f4c67d47bd041d7cf",
+        "0x80fa8340e18e4f79bc0a69e8bc511acba1d79bbfcc68fb499b451e10b3d252d3",
+        "0x8b139a0c02416a2ee91d24072b6bdb6abcc5c708b9d363ec8b2e8a17b2877dc5",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0xB836243097B717a7188CfF4262CC15B22d085Ba8",
+      "weighted_balance": "112682527860546400000000",
+      "claim_amount_wei": "6682318001721740000",
+      "claim_amount_tokens": "6.68231800172174",
+      "proof": [
+        "0xf637a3ac57d62fdf407b06f65e3c15edabee5d635e839c23c98e54fb9b2f8191",
+        "0xd1f0da3320b12b67a2d5ca28311cb236793019113b3e377d7c9d6acd03655835",
+        "0x7bbeec099e98e9abe902f74f3ecb8cbce9abe5cbcf451e8aef4c4bd784ca3dbe",
+        "0xd895f3e1e87edadd21ecabad23fa1837e78ebb4c2d055889a50ffef2da9947d2",
+        "0x8b139a0c02416a2ee91d24072b6bdb6abcc5c708b9d363ec8b2e8a17b2877dc5",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0x7120dFC8619a85d467F6B945F9387aE82719DAc0",
+      "weighted_balance": "37413689816853260000000",
+      "claim_amount_wei": "2218712853898679300",
+      "claim_amount_tokens": "2.2187128538986793",
+      "proof": [
+        "0x895d2b1aae3df8c72da51e328b30afb644101e0e63b7d69a096fd8d4b24df8bf",
+        "0xbe6fd9d1fdd525b691ae1e48c1c696b5c913c1c67d94b22971cc123103887cb4",
+        "0xd78bf009ebd8137f804d10dee5d6eedf201b7d027ee9655badf07cc4b269c8ea",
+        "0x9cba4d13ab8a1e638821a426fd7d3fc3eb5218111030f11e714c02b38f121ffc",
+        "0xfb7ff2262850539b0597cfbd4415e10acdb42c68e8a5a777206a16a68ecbc779",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0x2155c028eF7701B472992a1901996f00e371A7C2",
+      "weighted_balance": "23103932078438900000000",
+      "claim_amount_wei": "1370113221362709900",
+      "claim_amount_tokens": "1.3701132213627099",
+      "proof": [
+        "0x350e4b6d0e5987106ef6e7a417ef203744bff879c65627950abec1bdd7a4d6af",
+        "0x1393d3053026a5fdd0adc8cdda74d47666c719a26b256cafb533007ffc3760cd",
+        "0x3f0f967fd192debe0a29624d507a717de4ff436cbeb37096f8984d7967d76956",
+        "0x91bf503886f840423ee5c9d64381c96a682f12702a0ba4652d4422a5813bf6e1",
+        "0x9f80131c418a4c3966e49ee7aa3faab2be3e3f9fbd5c51ede5c776312aa81a43",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0xFEeAcCE884bc21B53DBe79Abc5279029f78D1B44",
+      "weighted_balance": "12885295485013600000000",
+      "claim_amount_wei": "764125935154458700",
+      "claim_amount_tokens": "0.7641259351544587",
+      "proof": [
+        "0xdaa2c5ee79761a1def9561b395f90e78f1d4668c3605157aecfc0e9f26636693",
+        "0x36f9ab3d3f4202faf2d43a79684acad124d518099143dc18d722884b7c22b019",
+        "0x1a6e83743f0ff79ab54942e678ccd7f449ce0f9ff06b07b97bbc7e584074afa8",
+        "0x80fa8340e18e4f79bc0a69e8bc511acba1d79bbfcc68fb499b451e10b3d252d3",
+        "0x8b139a0c02416a2ee91d24072b6bdb6abcc5c708b9d363ec8b2e8a17b2877dc5",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0x0d752075ee23F9D46d95724C1c7D60b3F3552852",
+      "weighted_balance": "8454184504495406000000",
+      "claim_amount_wei": "501351455073678700",
+      "claim_amount_tokens": "0.5013514550736787",
+      "proof": [
+        "0xc1f543c8820a35510914a078a188963dc1d03cbad52f49c5134718c7b8df345b",
+        "0xe320621cc9c8a9e2df051e940748bed3fecd165b35ccb440f97afff99ef75ca9",
+        "0x489b355c5a1457b28f84ba81eef65ad3c81be43586b1ee6775b51d18905180f7",
+        "0xf7e4fd33e146affac7684fbf9f8bdebd8ae1ec2b0b2686a24a6321ed1cfb96d5",
+        "0x54b292d18a2addb6f662d3ad378204869d4c1dae5a7d1a7b040390d621e69ecd",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    },
+    {
+      "address": "0x8F746745d5093BB8ae3ceB37d7F97bE07E50fec8",
+      "weighted_balance": "794186435286017400000",
+      "claim_amount_wei": "47096976026322915",
+      "claim_amount_tokens": "0.047096976026322915",
+      "proof": [
+        "0x3082029ee29f2aca915a9667ce626e5e699387d795a46ad2818140af0ed43a4e",
+        "0xf1a1c598d64897f822bd14295d94287ce77aba66616affa5ae41c6c71e05dcc1",
+        "0x3f0f967fd192debe0a29624d507a717de4ff436cbeb37096f8984d7967d76956",
+        "0x91bf503886f840423ee5c9d64381c96a682f12702a0ba4652d4422a5813bf6e1",
+        "0x9f80131c418a4c3966e49ee7aa3faab2be3e3f9fbd5c51ede5c776312aa81a43",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0x53854EdF8DCD8eED337C3Cb30E6E5ffd65CC4EbD",
+      "weighted_balance": "210543572857499270000",
+      "claim_amount_wei": "12485689962455018",
+      "claim_amount_tokens": "0.012485689962455018",
+      "proof": [
+        "0x234daf3f0cad190db0143b6b97cc9b4673262e10ad49037eb125b2d50f086ea0",
+        "0x77ff49a4e4d458bf1881562d5aaad3f823188ea3100dd3bde817b51fe403a34b",
+        "0xa64829cdf0e2a8bd538ee89d29bb22022df6a768871b9ac45b02727903011457",
+        "0x5bc023444491e62cf3ec46404f66f5c14c9e79a46c44ac0a2afcf8caca6aadbd",
+        "0x9f80131c418a4c3966e49ee7aa3faab2be3e3f9fbd5c51ede5c776312aa81a43",
+        "0x6cfa5e00a0b592047839759c0b322ef8d42793ef131df8417c245c0646834c24"
+      ]
+    },
+    {
+      "address": "0xBD8b3283A66dB67F8714CE6903EEa2CBa2dd992a",
+      "weighted_balance": "184802574082885310000",
+      "claim_amount_wei": "10959192973438444",
+      "claim_amount_tokens": "0.010959192973438444",
+      "proof": [
+        "0xa863f77896237594467a3ce75cbe49b0d2de25ff9ae61247229cbb72ec703d19",
+        "0xc7bd8552dc332270b0f9d295b7a5ad454ab57b7da2b0312dcaf464c56d23ef80",
+        "0x4a9345bbd90875525c4d6e3c41eda40ecbdf98d0de8eea63bed7638a353c6451",
+        "0x1f33b3c42e473ec0469de7ab753320ee7dd74c1b68809cd931310ed1bc0abafc",
+        "0x54b292d18a2addb6f662d3ad378204869d4c1dae5a7d1a7b040390d621e69ecd",
+        "0xc8dd9e080fd610d85d740b50cab77da27607843c7726a24dabb6b407fd586c7a"
+      ]
+    }
+  ]
+}
